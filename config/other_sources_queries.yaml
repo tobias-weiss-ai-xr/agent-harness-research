@@ -1,24 +1,25 @@
 # Multi-source discovery queries (fetch_other_sources.py)
-# Replace the example queries below with topic-specific ones.
-# Sources supported: dblp, crossref, europepmc, openalex, semantic_scholar
+# Sources supported: dblp, crossref, europepmc, openalex, semantic_scholar, zenodo
+# Categories/subcategories follow config/taxonomy.yaml (no free-form hints).
+#
+# Source status (verified 2026-11-08):
+#   - dblp:          BLOCKED — Anubis anti-bot challenge (non-JSON response); remove
+#                    queries here until DBLP lifts machine access.
+#   - semantic_scholar: RATE-LIMITED — public endpoint returns 429 without an API
+#                    key; re-add queries once a key or higher limit is available.
+#   - europepmc:     OMITTED — biomedical corpus, off-topic for agent-harness.
+#   - zenodo:        OMITTED — code/artifact packages, not research papers.
+#   - openalex:      covered by scripts/fetch/fetch_openalex_bulk.py (per-category).
 
-- source: dblp
-  query: your topic a
-  category: method
-  subcategory_hint: agentic
 - source: crossref
-  query: your topic b agent survey
-  category: survey
-  subcategory_hint: hybrid
-- source: europepmc
-  query: your topic c
-  category: application
-  subcategory_hint: non-agentic
-- source: openalex
-  query: your topic d evaluation benchmark
-  category: evaluation
-  subcategory_hint: hybrid
-- source: semantic_scholar
-  query: your topic e
-  category: method
-  subcategory_hint: agentic
+  query: "agent harness large language model tools"
+  category: runtime
+  subcategory_hint: systems
+- source: crossref
+  query: "LLM agent runtime context memory evaluation"
+  category: runtime
+  subcategory_hint: systems
+- source: crossref
+  query: "agentic harness safety permission sandbox"
+  category: safety
+  subcategory_hint: systems

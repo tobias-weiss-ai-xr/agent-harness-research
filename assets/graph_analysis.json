@@ -156,19 +156,19 @@
   {
    "id": "survey",
    "name": "Surveys & Taxonomies",
-   "count": 1,
+   "count": 2,
    "trajectory": {
-    "2026": 1
+    "2026": 2
    },
    "momentum": {
     "id": "survey",
     "name": "Survey",
-    "total": 1,
-    "recent": 1,
+    "total": 2,
+    "recent": 2,
     "prior": 0,
     "growth_pct": null,
     "recent_share": 1.0,
-    "papers_per_month": 0.1,
+    "papers_per_month": 0.2,
     "score": 100.0
    }
   }
@@ -192,7 +192,7 @@
   {
    "id": "survey",
    "name": "Survey",
-   "count": 1
+   "count": 2
   },
   {
    "id": "systems",
@@ -280,6 +280,11 @@
    "2026-04",
    "runtime",
    "systems"
+  ],
+  [
+   "2026-04",
+   "survey",
+   "survey"
   ],
   [
    "2026-05",
@@ -1404,64 +1409,68 @@
   {
    "name": "NeurIPS 2026. Code",
    "papers": 1
+  },
+  {
+   "name": "Preprints.org",
+   "papers": 1
   }
  ],
  "keyword_bursts": [
   {
    "keyword": "agent",
-   "recent": 236,
-   "total": 237,
+   "recent": 237,
+   "total": 238,
    "burst_score": 1.0,
    "recent_share": 1.0
   },
   {
    "keyword": "harness",
-   "recent": 235,
-   "total": 236,
+   "recent": 236,
+   "total": 237,
    "burst_score": 1.0,
    "recent_share": 0.9958
   },
   {
    "keyword": "tool",
-   "recent": 107,
-   "total": 107,
+   "recent": 108,
+   "total": 108,
    "burst_score": 1.0,
-   "recent_share": 0.4534
+   "recent_share": 0.4557
   },
   {
    "keyword": "context",
-   "recent": 82,
-   "total": 82,
+   "recent": 83,
+   "total": 83,
    "burst_score": 1.0,
-   "recent_share": 0.3475
+   "recent_share": 0.3502
   },
   {
    "keyword": "runtime",
-   "recent": 43,
-   "total": 43,
+   "recent": 44,
+   "total": 44,
    "burst_score": 1.0,
-   "recent_share": 0.1822
+   "recent_share": 0.1857
   },
   {
    "keyword": "orchestration",
    "recent": 19,
    "total": 19,
    "burst_score": 1.0,
-   "recent_share": 0.0805
+   "recent_share": 0.0802
+  },
+  {
+   "keyword": "sandbox",
+   "recent": 11,
+   "total": 11,
+   "burst_score": 1.0,
+   "recent_share": 0.0464
   },
   {
    "keyword": "permission",
    "recent": 10,
    "total": 10,
    "burst_score": 1.0,
-   "recent_share": 0.0424
-  },
-  {
-   "keyword": "sandbox",
-   "recent": 10,
-   "total": 10,
-   "burst_score": 1.0,
-   "recent_share": 0.0424
+   "recent_share": 0.0422
   },
   {
    "keyword": "meta access",

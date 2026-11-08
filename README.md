@@ -153,7 +153,7 @@ This repo is designed to be driven by coding agents (OpenCode, Claude Code, …)
 
 ## 📊 Corpus Statistics
 
-**237 papers** across **9 categories**.  
+**238 papers** across **9 categories**.  
 Sources: **arXiv** 237 (100%).  
 
 ### Top categories
@@ -168,14 +168,14 @@ Sources: **arXiv** 237 (100%).
 | interface | **3** | 3 | █░░░░░░░░░░░ |
 | application | **2** | 2 | █░░░░░░░░░░░ |
 | orchestration | **2** | 2 | █░░░░░░░░░░░ |
-| survey | **1** | 1 | █░░░░░░░░░░░ |
+| survey | **2** | 2 | █░░░░░░░░░░░ |
 
 ### By year
 
 | Year | Papers | |
 |------|--------|-|
 | 2025 | 1 | █░░░░░░░░░░░ |
-| 2026 | 236 | ████████████ |
+| 2026 | 237 | ████████████ |
 
 ### Momentum (hottest categories)
 
@@ -189,20 +189,20 @@ Sources: **arXiv** 237 (100%).
 | Method | 21 | 1.8/mo | 100% | 100 |
 | Orchestration | 2 | 0.2/mo | 100% | 100 |
 | Safety | 21 | 1.8/mo | 100% | 100 |
-| Survey | 1 | 0.1/mo | 100% | 100 |
+| Survey | 2 | 0.2/mo | 100% | 100 |
 
 ### Trending keywords
 
 | Keyword | Papers | Burst |
 |---------|--------|-------|
-| agent | 236 | 1.0 |
-| harness | 235 | 1.0 |
-| tool | 107 | 1.0 |
-| context | 82 | 1.0 |
-| runtime | 43 | 1.0 |
+| agent | 237 | 1.0 |
+| harness | 236 | 1.0 |
+| tool | 108 | 1.0 |
+| context | 83 | 1.0 |
+| runtime | 44 | 1.0 |
 | orchestration | 19 | 1.0 |
+| sandbox | 11 | 1.0 |
 | permission | 10 | 1.0 |
-| sandbox | 10 | 1.0 |
 
 ### Top venues
 
@@ -211,16 +211,17 @@ Sources: **arXiv** 237 (100%).
 | CIKM 2026 | 1 |
 | SIGIR 2026 | 1 |
 | NeurIPS 2026. Code | 1 |
+| Preprints.org | 1 |
 
 ### Research gaps (thinnest cells)
 
 | Cell | Papers |
 |------|--------|
 | `runtime/theory` | 1 |
-| `survey/survey` | 1 |
 | `runtime/development` | 1 |
 | `method/theory` | 1 |
 | `application/method` | 2 |
+| `method/experiment` | 2 |
 
 *Generated 2026-11 by `scripts/standard_stats.py`.*
 

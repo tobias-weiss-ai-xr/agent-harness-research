@@ -420,5 +420,6 @@
 ##### 2026
 
 - [2026] **The Empire, Long Divided, Must Unite: Architectural Convergence in Three LLM Agent Harnesses** [[paper](https://arxiv.org/abs/2608.23953)]
+- [2026] **Agent Harness for Large Language Model Agents: A Survey** *Preprints.org* [[paper](https://doi.org/10.20944/preprints202604.0428.v3)] [[code](https://github.com/Gloriaameng/Awesome-Agent-Harness)]
 
 [⬆ Back to top](#paper-list)

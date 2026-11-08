@@ -1,7 +1,7 @@
 # Literature Review
 
 **Generated:** 2026-11-08  
-**Corpus:** 237 papers across 9 categories
+**Corpus:** 238 papers across 9 categories
 
 > Synthesis of the corpus. Category insights are grounded in title/abstract analysis of the papers themselves.
 
@@ -18,7 +18,7 @@
 | 5 | Context & State Management | 8 |
 | 6 | Interfaces & Meta-Access | 3 |
 | 7 | Applications | 2 |
-| 8 | Orchestration & Workflows | 2 |
+| 8 | Surveys & Taxonomies | 2 |
 
 **Time span:** 2025–2026 (median year 2026)
 **Dominant aspects:** Systems (168), Methods & Architectures (53), Experiment (12)
@@ -37,7 +37,7 @@
 | Method | 21 | 21 | 0 | — | 100% | 1.8 |
 | Orchestration | 2 | 2 | 0 | — | 100% | 0.2 |
 | Safety | 21 | 21 | 0 | — | 100% | 1.8 |
-| Survey | 1 | 1 | 0 | — | 100% | 0.1 |
+| Survey | 2 | 2 | 0 | — | 100% | 0.2 |
 
 ---
 
@@ -46,11 +46,11 @@
 | Cell | Papers |
 |------|--------:|
 | `runtime/theory` | 1 |
-| `survey/survey` | 1 |
 | `runtime/development` | 1 |
 | `method/theory` | 1 |
 | `application/method` | 2 |
 | `method/experiment` | 2 |
+| `survey/survey` | 2 |
 | `orchestration/method` | 2 |
 | `context/systems` | 2 |
 
@@ -142,6 +142,17 @@
 
 ---
 
+### Surveys & Taxonomies (`survey`)
+
+**Corpus size:** 2 papers
+
+**Recent papers:**
+
+- [2026-08] The Empire, Long Divided, Must Unite: Architectural Convergence in Three LLM Agent Harnesses — https://arxiv.org/abs/2608.23953
+- [2026-04] Agent Harness for Large Language Model Agents: A Survey — https://doi.org/10.20944/preprints202604.0428.v3
+
+---
+
 ### Orchestration & Workflows (`orchestration`)
 
 **Corpus size:** 2 papers
@@ -150,16 +161,6 @@
 
 - [2026-09] Rethinking Multi-Agent Collaboration: When More Is Less — https://arxiv.org/abs/2609.19759
 - [2026-09] Cogentic: Multi-Agent Orchestration for Automated Proof Discovery — https://arxiv.org/abs/2609.40324
-
----
-
-### Surveys & Taxonomies (`survey`)
-
-**Corpus size:** 1 papers
-
-**Recent papers:**
-
-- [2026-08] The Empire, Long Divided, Must Unite: Architectural Convergence in Three LLM Agent Harnesses — https://arxiv.org/abs/2608.23953
 
 ---
 
