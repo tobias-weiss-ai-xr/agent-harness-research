@@ -1,15 +1,168 @@
 {
  "categories": [
   {
+   "id": "application",
+   "name": "Applications",
+   "count": 2,
+   "trajectory": {
+    "2026": 2
+   },
+   "momentum": {
+    "id": "application",
+    "name": "Application",
+    "total": 2,
+    "recent": 2,
+    "prior": 0,
+    "growth_pct": null,
+    "recent_share": 1.0,
+    "papers_per_month": 0.2,
+    "score": 100.0
+   }
+  },
+  {
+   "id": "context",
+   "name": "Context & State Management",
+   "count": 7,
+   "trajectory": {
+    "2026": 7
+   },
+   "momentum": {
+    "id": "context",
+    "name": "Context",
+    "total": 7,
+    "recent": 7,
+    "prior": 0,
+    "growth_pct": null,
+    "recent_share": 1.0,
+    "papers_per_month": 0.6,
+    "score": 100.0
+   }
+  },
+  {
+   "id": "evaluation",
+   "name": "Evaluation & Benchmarks",
+   "count": 12,
+   "trajectory": {
+    "2026": 12
+   },
+   "momentum": {
+    "id": "evaluation",
+    "name": "Evaluation",
+    "total": 12,
+    "recent": 12,
+    "prior": 0,
+    "growth_pct": null,
+    "recent_share": 1.0,
+    "papers_per_month": 1.0,
+    "score": 100.0
+   }
+  },
+  {
    "id": "interface",
    "name": "Interfaces & Meta-Access",
+   "count": 3,
+   "trajectory": {
+    "2026": 3
+   },
+   "momentum": {
+    "id": "interface",
+    "name": "Interface",
+    "total": 3,
+    "recent": 3,
+    "prior": 0,
+    "growth_pct": null,
+    "recent_share": 1.0,
+    "papers_per_month": 0.2,
+    "score": 100.0
+   }
+  },
+  {
+   "id": "method",
+   "name": "Methods & Architectures",
+   "count": 20,
+   "trajectory": {
+    "2026": 20
+   },
+   "momentum": {
+    "id": "method",
+    "name": "Method",
+    "total": 20,
+    "recent": 20,
+    "prior": 0,
+    "growth_pct": null,
+    "recent_share": 1.0,
+    "papers_per_month": 1.7,
+    "score": 100.0
+   }
+  },
+  {
+   "id": "orchestration",
+   "name": "Orchestration & Workflows",
+   "count": 2,
+   "trajectory": {
+    "2026": 2
+   },
+   "momentum": {
+    "id": "orchestration",
+    "name": "Orchestration",
+    "total": 2,
+    "recent": 2,
+    "prior": 0,
+    "growth_pct": null,
+    "recent_share": 1.0,
+    "papers_per_month": 0.2,
+    "score": 100.0
+   }
+  },
+  {
+   "id": "runtime",
+   "name": "Agent Runtimes & Harnesses",
+   "count": 149,
+   "trajectory": {
+    "2025": 1,
+    "2026": 148
+   },
+   "momentum": {
+    "id": "runtime",
+    "name": "Runtime",
+    "total": 149,
+    "recent": 148,
+    "prior": 1,
+    "growth_pct": 14700.0,
+    "recent_share": 0.993,
+    "papers_per_month": 12.3,
+    "score": 14799.3
+   }
+  },
+  {
+   "id": "safety",
+   "name": "Safety, Permissions & Sandboxing",
+   "count": 12,
+   "trajectory": {
+    "2026": 12
+   },
+   "momentum": {
+    "id": "safety",
+    "name": "Safety",
+    "total": 12,
+    "recent": 12,
+    "prior": 0,
+    "growth_pct": null,
+    "recent_share": 1.0,
+    "papers_per_month": 1.0,
+    "score": 100.0
+   }
+  },
+  {
+   "id": "survey",
+   "name": "Surveys & Taxonomies",
    "count": 1,
    "trajectory": {
     "2026": 1
    },
    "momentum": {
-    "id": "interface",
-    "name": "Interface",
+    "id": "survey",
+    "name": "Survey",
     "total": 1,
     "recent": 1,
     "prior": 0,
@@ -22,75 +175,1155 @@
  ],
  "subcategories": [
   {
+   "id": "development",
+   "name": "Development",
+   "count": 1
+  },
+  {
+   "id": "experiment",
+   "name": "Experiment",
+   "count": 12
+  },
+  {
    "id": "method",
    "name": "Method",
+   "count": 41
+  },
+  {
+   "id": "survey",
+   "name": "Survey",
    "count": 1
+  },
+  {
+   "id": "systems",
+   "name": "Systems",
+   "count": 151
+  },
+  {
+   "id": "theory",
+   "name": "Theory",
+   "count": 2
   }
  ],
  "timeline": [
   [
+   "2025-09",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-01",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-02",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-02",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-02",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-02",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-03",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-03",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-03",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-03",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-04",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-04",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-04",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-04",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-04",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-05",
+   "application",
+   "method"
+  ],
+  [
+   "2026-05",
+   "context",
+   "method"
+  ],
+  [
+   "2026-05",
+   "evaluation",
+   "experiment"
+  ],
+  [
+   "2026-05",
+   "runtime",
+   "method"
+  ],
+  [
+   "2026-05",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-05",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-05",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-05",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-05",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-05",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-05",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-05",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-05",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-05",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-05",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-05",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-05",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-05",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-05",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-05",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-05",
+   "safety",
+   "method"
+  ],
+  [
+   "2026-06",
+   "application",
+   "method"
+  ],
+  [
+   "2026-06",
+   "context",
+   "method"
+  ],
+  [
+   "2026-06",
+   "evaluation",
+   "experiment"
+  ],
+  [
+   "2026-06",
+   "method",
+   "experiment"
+  ],
+  [
+   "2026-06",
+   "method",
+   "method"
+  ],
+  [
+   "2026-06",
+   "method",
+   "method"
+  ],
+  [
+   "2026-06",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-06",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-06",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-06",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-06",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-06",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-06",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-06",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-06",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-06",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-06",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-06",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-06",
+   "runtime",
+   "theory"
+  ],
+  [
+   "2026-07",
+   "context",
+   "method"
+  ],
+  [
+   "2026-07",
+   "method",
+   "systems"
+  ],
+  [
+   "2026-07",
+   "runtime",
+   "method"
+  ],
+  [
+   "2026-07",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-07",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-07",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-07",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-07",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-07",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-07",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-07",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-07",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-07",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-07",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-07",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-07",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-07",
+   "safety",
+   "experiment"
+  ],
+  [
+   "2026-07",
+   "safety",
+   "method"
+  ],
+  [
+   "2026-07",
+   "safety",
+   "systems"
+  ],
+  [
+   "2026-08",
+   "evaluation",
+   "method"
+  ],
+  [
+   "2026-08",
+   "evaluation",
+   "method"
+  ],
+  [
+   "2026-08",
+   "method",
+   "method"
+  ],
+  [
+   "2026-08",
+   "method",
+   "method"
+  ],
+  [
+   "2026-08",
+   "runtime",
+   "method"
+  ],
+  [
+   "2026-08",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-08",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-08",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-08",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-08",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-08",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-08",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-08",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-08",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-08",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-08",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-08",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-08",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-08",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-08",
+   "safety",
+   "experiment"
+  ],
+  [
+   "2026-08",
+   "safety",
+   "experiment"
+  ],
+  [
+   "2026-08",
+   "safety",
+   "systems"
+  ],
+  [
+   "2026-08",
+   "survey",
+   "survey"
+  ],
+  [
+   "2026-09",
+   "context",
+   "method"
+  ],
+  [
+   "2026-09",
+   "evaluation",
+   "experiment"
+  ],
+  [
+   "2026-09",
+   "evaluation",
+   "method"
+  ],
+  [
+   "2026-09",
+   "method",
+   "experiment"
+  ],
+  [
+   "2026-09",
+   "method",
+   "method"
+  ],
+  [
+   "2026-09",
+   "method",
+   "method"
+  ],
+  [
+   "2026-09",
+   "method",
+   "method"
+  ],
+  [
+   "2026-09",
+   "method",
+   "systems"
+  ],
+  [
+   "2026-09",
+   "orchestration",
+   "method"
+  ],
+  [
+   "2026-09",
+   "orchestration",
+   "method"
+  ],
+  [
+   "2026-09",
+   "runtime",
+   "method"
+  ],
+  [
+   "2026-09",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-09",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-09",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-09",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-09",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-09",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-09",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-09",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-09",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-09",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-09",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-09",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-09",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-09",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-09",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-09",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-09",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-09",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-09",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-09",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-09",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-09",
+   "safety",
+   "method"
+  ],
+  [
+   "2026-09",
+   "safety",
+   "method"
+  ],
+  [
+   "2026-10",
+   "context",
+   "method"
+  ],
+  [
+   "2026-10",
+   "context",
+   "systems"
+  ],
+  [
+   "2026-10",
+   "context",
+   "systems"
+  ],
+  [
+   "2026-10",
+   "evaluation",
+   "experiment"
+  ],
+  [
+   "2026-10",
+   "evaluation",
+   "experiment"
+  ],
+  [
+   "2026-10",
+   "evaluation",
+   "experiment"
+  ],
+  [
+   "2026-10",
+   "evaluation",
+   "method"
+  ],
+  [
+   "2026-10",
+   "evaluation",
+   "method"
+  ],
+  [
+   "2026-10",
+   "interface",
+   "method"
+  ],
+  [
+   "2026-10",
+   "interface",
+   "method"
+  ],
+  [
+   "2026-10",
+   "method",
+   "method"
+  ],
+  [
+   "2026-10",
+   "method",
+   "method"
+  ],
+  [
+   "2026-10",
+   "method",
+   "method"
+  ],
+  [
+   "2026-10",
+   "method",
+   "method"
+  ],
+  [
+   "2026-10",
+   "method",
+   "method"
+  ],
+  [
+   "2026-10",
+   "method",
+   "systems"
+  ],
+  [
+   "2026-10",
+   "method",
+   "systems"
+  ],
+  [
+   "2026-10",
+   "method",
+   "theory"
+  ],
+  [
+   "2026-10",
+   "runtime",
+   "development"
+  ],
+  [
+   "2026-10",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-10",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-10",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-10",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-10",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-10",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-10",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-10",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-10",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-10",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-10",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-10",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-10",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-10",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-10",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-10",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-10",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-10",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-10",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-10",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-10",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-10",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-10",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-10",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-10",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-10",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-10",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-10",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-10",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-10",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-10",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-10",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-10",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-10",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-10",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-10",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-10",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-10",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-10",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-10",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-10",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-10",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-10",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-10",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-10",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-10",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-10",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-10",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-10",
+   "safety",
+   "method"
+  ],
+  [
+   "2026-10",
+   "safety",
+   "method"
+  ],
+  [
+   "2026-10",
+   "safety",
+   "systems"
+  ],
+  [
+   "2026-11",
+   "evaluation",
+   "experiment"
+  ],
+  [
    "2026-11",
    "interface",
    "method"
+  ],
+  [
+   "2026-11",
+   "method",
+   "method"
+  ],
+  [
+   "2026-11",
+   "runtime",
+   "method"
+  ],
+  [
+   "2026-11",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-11",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-11",
+   "runtime",
+   "systems"
   ]
  ],
- "venues": [],
+ "venues": [
+  {
+   "name": "CIKM 2026",
+   "papers": 1
+  },
+  {
+   "name": "SIGIR 2026",
+   "papers": 1
+  },
+  {
+   "name": "NeurIPS 2026. Code",
+   "papers": 1
+  }
+ ],
  "keyword_bursts": [
   {
-   "keyword": "harness",
-   "recent": 1,
-   "total": 1,
-   "burst_score": 1.0,
-   "recent_share": 1.0
-  },
-  {
-   "keyword": "runtime",
-   "recent": 1,
-   "total": 1,
-   "burst_score": 1.0,
-   "recent_share": 1.0
-  },
-  {
    "keyword": "agent",
-   "recent": 1,
-   "total": 1,
+   "recent": 207,
+   "total": 208,
    "burst_score": 1.0,
    "recent_share": 1.0
+  },
+  {
+   "keyword": "harness",
+   "recent": 206,
+   "total": 207,
+   "burst_score": 1.0,
+   "recent_share": 0.9952
   },
   {
    "keyword": "tool",
-   "recent": 1,
-   "total": 1,
+   "recent": 97,
+   "total": 97,
    "burst_score": 1.0,
-   "recent_share": 1.0
+   "recent_share": 0.4686
   },
   {
    "keyword": "context",
-   "recent": 1,
-   "total": 1,
+   "recent": 75,
+   "total": 75,
    "burst_score": 1.0,
-   "recent_share": 1.0
+   "recent_share": 0.3623
+  },
+  {
+   "keyword": "runtime",
+   "recent": 28,
+   "total": 28,
+   "burst_score": 1.0,
+   "recent_share": 0.1353
   },
   {
    "keyword": "orchestration",
-   "recent": 1,
-   "total": 1,
+   "recent": 16,
+   "total": 16,
    "burst_score": 1.0,
-   "recent_share": 1.0
+   "recent_share": 0.0773
+  },
+  {
+   "keyword": "sandbox",
+   "recent": 9,
+   "total": 9,
+   "burst_score": 1.0,
+   "recent_share": 0.0435
   },
   {
    "keyword": "permission",
-   "recent": 1,
-   "total": 1,
+   "recent": 6,
+   "total": 6,
    "burst_score": 1.0,
-   "recent_share": 1.0
+   "recent_share": 0.029
   },
   {
    "keyword": "meta access",
    "recent": 1,
    "total": 1,
    "burst_score": 1.0,
-   "recent_share": 1.0
+   "recent_share": 0.0048
   }
  ]
 }

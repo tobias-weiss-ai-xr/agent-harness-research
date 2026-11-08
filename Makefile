@@ -15,9 +15,18 @@
 # Note: on Windows use `make` from MSYS2/Git-Bash/WSL; commands are sh-compatible.
 
 PY      ?= python3
+# Fall back to python3.12 when the default python3 lacks PyYAML (common on
+# Homebrew-managed macOS Python). Only applies when PY was not explicitly
+# overridden and python3 cannot import yaml; CI/venv pins are unaffected.
+ifeq ($(origin PY),file)
+PY_HAS_YAML := $(shell $(PY) -c 'import yaml' >/dev/null 2>&1 && echo yes || echo no)
+ifeq ($(PY_HAS_YAML),no)
+PY := $(shell command -v python3.12 >/dev/null 2>&1 && echo python3.12 || echo $(PY))
+endif
+endif
 REPO    := $(CURDIR)
 
-.PHONY: help bootstrap validate check generate test discover digest all
+.PHONY: help bootstrap validate check generate test discover digest ingest-text all
 
 help: ## List available targets
 	@grep -E '^[a-zA-Z_-]+:.*?## ' $(MAKEFILE_LIST) | \
@@ -49,6 +58,9 @@ test-v: ## Run the unit test suite with verbose output
 
 test-watch: ## Continuously re-run tests on file changes
 	watch -n 2 '$(PY) -m pytest'
+
+ingest-text: ## Download arXiv HTML full text for all papers (data/full_text/)
+	$(PY) scripts/fetch/extract_full_text.py
 
 discover: ## Fetch new arXiv papers & create a PR (needs GITHUB_TOKEN/GH_TOKEN)
 	python3 scripts/fetch/fetch_new_papers.py --months 1 --create-pr

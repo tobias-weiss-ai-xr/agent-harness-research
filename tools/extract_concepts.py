@@ -54,6 +54,22 @@ def load_papers(path):
         return yaml.safe_load(f).get("papers", [])
 
 
+
+def full_text(paper):
+    """Load extracted full text from data/full_text if available."""
+    from pathlib import Path
+    m = re.search(r"arxiv\.org/abs/((?:[a-z\-]+/)?\d{4}\.\d{4,5})", paper.get("url", ""))
+    if not m:
+        return ""
+    aid = m.group(1).replace("/", "_")
+    path = REPO / "data" / "full_text" / f"{aid}.txt"
+    if path.exists():
+        try:
+            return path.read_text(encoding="utf-8")[:200000]
+        except Exception:
+            return ""
+    return ""
+
 def load_taxonomy_categories():
     """Return [(label, id)] for taxonomy categories."""
     p = REPO / "config" / "taxonomy.yaml"
@@ -174,7 +190,7 @@ def main():
             c["_pats"].append(re.compile(rf"\b{re.escape(frm)}\b"))
         c["cells"] = Counter()
     for e in papers:
-        text = f" {e.get('title','')} {e.get('abstract','')} ".lower()
+        text = f" {e.get('title','')} {e.get('abstract','')} {full_text(e)} ".lower()
         toks = set(TOKEN.findall(text))
         cell = f"{e.get('category','')}/{e.get('subcategory','')}"
         for c in text_cs:

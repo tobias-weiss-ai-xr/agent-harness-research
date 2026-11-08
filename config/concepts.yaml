@@ -10,23 +10,56 @@
 # selective concept graph (config/extraction.yaml: mode=selective) has a
 # meaningful curated layer on top of the taxonomy backbone.
 concepts:
-  - literature review
-  - systematic review
-  - meta analysis
-  - case study
-  - qualitative
-  - quantitative
-  - mixed methods
-  - experiment
-  - survey
-  - interview
-  - dataset
+  - accessibility
+  - agent harness
+  - agentic harness
   - benchmark
+  - context compaction
+  - context management
+  - control plane
+  - evaluation
+  - harness evolution
+  - long context
+  - memory
+  - meta access
+  - multi-agent
+  - observability
+  - orchestration
+  - permission
+  - prompt injection
+  - recovery
+  - retrieval
+  - runtime
+  - safety
+  - sandbox
+  - self-evolution
+  - telemetry
+  - tool execution
+  - tool use
+  - verification
+  - self-improvement
+  - hook
+  - tool contract
   - reproducibility
-  - research gap
-  - grounded theory
-  - triangulation
-  - framework
-  - taxonomy
-  - open access
-  - peer review
+  - lifecycle
+  - failure attribution
+  - context window
+  - permission scoping
+  - guardrail
+  - control flow
+  - data flow
+  - metamodel
+  - debugger
+  - onboarding
+  - navigation
+  - grounding
+  - citation
+  - confirmation
+  - reversibility
+  - audit
+  - supply chain
+  - persona
+  - tutorial
+  - mixed initiative
+  - ladder
+  - reflexivity

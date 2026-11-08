@@ -36,6 +36,21 @@ def load_papers(path):
         return yaml.safe_load(f).get("papers", [])
 
 
+
+def full_text(paper):
+    from pathlib import Path
+    m = re.search(r"arxiv\.org/abs/((?:[a-z\-]+/)?\d{4}\.\d{4,5})", paper.get("url", ""))
+    if not m:
+        return ""
+    aid = m.group(1).replace("/", "_")
+    path = REPO / "data" / "full_text" / f"{aid}.txt"
+    if path.exists():
+        try:
+            return path.read_text(encoding="utf-8")[:200000]
+        except Exception:
+            return ""
+    return ""
+
 def load_concepts(path):
     with open(path, encoding="utf-8") as f:
         data = json.load(f)
@@ -52,7 +67,7 @@ def paper_set(ei, papers, match):
     toks = [set(frm.split()) for frm in match["forms"]]
     out = set()
     for i, e in enumerate(papers):
-        text = f" {e.get('title','')} {e.get('abstract','')} ".lower()
+        text = f" {e.get('title','')} {e.get('abstract','')} {full_text(e)} ".lower()
         tset = set(TOKEN.findall(text))
         if any(tk <= tset and p.search(text) for tk, p in zip(toks, pats)):
             out.add(i)
