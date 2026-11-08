@@ -37,6 +37,7 @@
 ##### 2026
 
 - [2026] **Can Coding Agents Sustain Continual Evolution without Forgetting?** [[paper](https://arxiv.org/abs/2611.03219)]
+- [2026] **Lessons Outlive Their Failures: A Case Study of Rules for AI Coding Agents** [[paper](https://arxiv.org/abs/2610.32578)]
 - [2026] **Agent Harness Awareness: Turning Verified Telemetry into Operational Control for Tool-Using Agents** [[paper](https://arxiv.org/abs/2611.05391)]
 - [2026] **AgentRewind: Recoverable Execution for Long-Horizon LLM Agents** [[paper](https://arxiv.org/abs/2608.14380)]
 - [2026] **Don't Blame the Large Language Model: How Agent Harness Evolution Shapes Coding Agent Quality** [[paper](https://arxiv.org/abs/2607.03691)]
@@ -59,6 +60,8 @@
 - [2026] **ScienceVision: Can AI Observe and Reason Like a Scientist?** [[paper](https://arxiv.org/abs/2611.04087)]
 - [2026] **HLSClaw: Bringing Vibe Coding to High-Level Synthesis through Skill-Based Agentic Harness** [[paper](https://arxiv.org/abs/2611.02784)]
 - [2026] **Reimagining computational quantum research with AI scientists** [[paper](https://arxiv.org/abs/2611.02833)]
+- [2026] **Beneath the Surface: What We Overlook When We Talk About Agent Evolution** [[paper](https://arxiv.org/abs/2611.07624)]
+- [2026] **Evolver: Turning Agent Exploration into Evolving Capabilities** [[paper](https://arxiv.org/abs/2611.07595)]
 - [2026] **WebUIProof: Benchmarking WebUI Code Generators with UI-Agent Execution Harness** [[paper](https://arxiv.org/abs/2610.02617)]
 - [2026] **RoboArchitect: Automating the Design of Robotic Agents with Persistent Memory** [[paper](https://arxiv.org/abs/2610.42141)]
 - [2026] **EmbodiedRSI: Active Continual Robot Learning Through Hypothesis-Guided Co-Evolution** [[paper](https://arxiv.org/abs/2610.10498)]
@@ -107,6 +110,12 @@
 - [2026] **Let the Mind Conceive, Let the Hand Achieve: Following Multimodal Instructions for Long-Horizon Robotic Manipulation** [[paper](https://arxiv.org/abs/2610.18352)]
 - [2026] **Auriga Technical Report: A Task-Agnostic Agent Harness for Zero-Shot Embodied Manipulation** [[paper](https://arxiv.org/abs/2611.01112)]
 - [2026] **Code2Worlds-2: Physically Plausible Agent Harness for Embodied World Simulation** [[paper](https://arxiv.org/abs/2610.17651)]
+- [2026] **Reliable Before Profitable: QuantHarness for Governing Financial Strategy Development with LLM Agents** [[paper](https://arxiv.org/abs/2610.26101)]
+- [2026] **VideoEvolve: Evolving Agent Harnesses for Video Temporal Grounding** [[paper](https://arxiv.org/abs/2610.01766)] [[code](https://github.com/bingjunluo/VideoEvolve)]
+- [2026] **Exo: An Architecture for Self-Improving Systems at Runtime** [[paper](https://arxiv.org/abs/2611.00463)]
+- [2026] **VerifiedLab: Harnessing Knowns for Unknowns** [[paper](https://arxiv.org/abs/2610.37923)]
+- [2026] **Built to Remember, Shipped to Forget: Operational Contracts, Failures, and Repairs in Containerized LLM Agent Deployments** [[paper](https://arxiv.org/abs/2610.34620)]
+- [2026] **Organon : From Evolutionary Search to Recursive Self-Improving Agents for Scientific Discovery** [[paper](https://arxiv.org/abs/2610.33046)]
 - [2026] **Agentic programs: an emerging form of scientific software in computational materials science** [[paper](https://arxiv.org/abs/2609.00795)]
 - [2026] **The Capability Manifold and ML Scaling Laws** [[paper](https://arxiv.org/abs/2609.27588)]
 - [2026] **COBRA-Skills: Contextual Bandit-Guided Evolution for Agent Skill Optimization** [[paper](https://arxiv.org/abs/2609.11682)]
@@ -128,6 +137,11 @@
 - [2026] **World Action Agent: Harnessing VLMs for Robot Manipulation via World Action Rehearsal** [[paper](https://arxiv.org/abs/2609.29964)]
 - [2026] **Generalizing Manipulation Skills with a Local Coding Agent** [[paper](https://arxiv.org/abs/2609.26499)]
 - [2026] **Scale and Selection: What Makes Automatic Harness Evolution Work for Visual-Interface Robot Agents** [[paper](https://arxiv.org/abs/2609.39304)]
+- [2026] **RobustSGPO: Search-Space Control for Agent Harness Evolution** [[paper](https://arxiv.org/abs/2609.09646)]
+- [2026] **Learning from Research: Toward Lifelong Agent Harness Evolution** [[paper](https://arxiv.org/abs/2609.40169)]
+- [2026] **Fyan: A Human--AI Harness with Semantic Auditing for Document-Level Formalization** [[paper](https://arxiv.org/abs/2609.39228)]
+- [2026] **AeroWeaver: An Embodied-Agent Harness for Weaving Aerial Skills into Distributed, Adaptive Swarm Execution** [[paper](https://arxiv.org/abs/2609.18520)] [[code](https://github.com/Admire-ljb/AeroWeaver)]
+- [2026] **How Do Agent Harnesses Create Value? Planning Information and Release Control in Stateful LLM Agents** [[paper](https://arxiv.org/abs/2609.20474)]
 - [2026] **openJiuwen: Beyond Static Harnesses for Long-Horizon Coding Agents** [[paper](https://arxiv.org/abs/2608.27969)]
 - [2026] **Forward-Deployed Full-Stack Engineering for Autonomous Cloud MLOps** [[paper](https://arxiv.org/abs/2608.29615)]
 - [2026] **BC-Bench: Evaluating Agentic Engineering in a Domain-Specific Language for ERP** [[paper](https://arxiv.org/abs/2608.20851)]
@@ -142,6 +156,9 @@
 - [2026] **ClawGym II: Exploring Black-Box RL on Agent Harness** [[paper](https://arxiv.org/abs/2608.16798)]
 - [2026] **Learning Generalizable Behaviors for Terminal Agents** [[paper](https://arxiv.org/abs/2608.22631)]
 - [2026] **Capability Sheaves for Compositional Agent-Harness Repair: Controlled Quotients and a Real-Repository Stress Test** [[paper](https://arxiv.org/abs/2608.13228)]
+- [2026] **WeAgent-MMSearch: Native Text-Vision Interaction for Multimodal Search Agents** [[paper](https://arxiv.org/abs/2608.28062)]
+- [2026] **SBCO: Self-Supervised, Verifier-Grounded Harness Optimization For Planning Agents** [[paper](https://arxiv.org/abs/2608.10157)]
+- [2026] **StarHarness: Evolving Harnesses with Stratified Search for Enterprise Environments** [[paper](https://arxiv.org/abs/2608.24804)]
 - [2026] **MemoHarness: Agent Harnesses That Learn from Experience** [[paper](https://arxiv.org/abs/2607.14159)]
 - [2026] **Albilich: Steerable Proof-State Orchestration for LLM-Based Mathematical Research with CAS Integration** [[paper](https://arxiv.org/abs/2607.27705)]
 - [2026] **AgenticPD: A Stage-Aware Agentic Framework for Closed-Loop Physical Design Optimization** [[paper](https://arxiv.org/abs/2607.04758)]
@@ -220,6 +237,7 @@
 
 ##### 2026
 
+- [2026] **SUMONE: A Simple and Efficient Summarizer for Plug-and-Play Agent Memory** [[paper](https://arxiv.org/abs/2611.06445)]
 - [2026] **Context Compaction for World Models** [[paper](https://arxiv.org/abs/2610.38980)]
 - [2026] **Beyond Skill Evolution: Self-Evolving Context Management Policies for Long-Horizon Agent Harnesses** [[paper](https://arxiv.org/abs/2609.34649)]
 - [2026] **Is Progressive Disclosure All You Need for Long-Context Agents?** [[paper](https://arxiv.org/abs/2607.17598)]
@@ -266,10 +284,18 @@
 
 ##### 2026
 
+- [2026] **DoGNAVY-Exploit: Harnessing Parallel Open-Weight Agents for Stage-Aware Vulnerability Exploitation** [[paper](https://arxiv.org/abs/2611.04196)]
 - [2026] **HASTE: Evolving Agent Harnesses Against Emerging Attacks Using Sparse Evidence** [[paper](https://arxiv.org/abs/2610.02920)]
 - [2026] **Do AI-for-Science Agents Preserve Model Safety?** [[paper](https://arxiv.org/abs/2610.32045)]
+- [2026] **I-HITL: Inalienable Human-in-the-Loop** [[paper](https://arxiv.org/abs/2610.35835)]
+- [2026] **CoSA: The Conflict of Skills Attack in Real-World LLM Agent Ecosystems** [[paper](https://arxiv.org/abs/2610.35082)]
+- [2026] **Model-as-a-Trojan: Self-Activating Covert DNS Exfiltration Baked Into the Weights of an LLM Agent** [[paper](https://arxiv.org/abs/2610.22578)]
+- [2026] **ToFu: Exploiting and Fuzzing the LLM-Orchestrator-Tool Trust Boundary** [[paper](https://arxiv.org/abs/2610.13651)]
+- [2026] **StateMirror: Pre-Execution Detection of Hallucinated Tool Calls in Coding Agents** [[paper](https://arxiv.org/abs/2610.32648)]
 - [2026] **A Blind Trust, the Bloody Thrust: When Attacker-Controlled Hook Updates Steer AI Agent Harnesses towards Malicious Behaviors** [[paper](https://arxiv.org/abs/2609.03884)]
 - [2026] **Who Is Behind the Harness? Fingerprinting LLMs through Agentic Behavior** [[paper](https://arxiv.org/abs/2609.28559)]
+- [2026] **Safety Signals to Verify NetOps Agents with Action-Level Granularity** [[paper](https://arxiv.org/abs/2609.14422)]
+- [2026] **SHE: Trajectory-driven Safety Harness Evolution for LLM Agents** [[paper](https://arxiv.org/abs/2608.09885)]
 - [2026] **Toward Auditable AI Scientists: A Hypothesis Evolution Protocol for LLM Agents** [[paper](https://arxiv.org/abs/2607.09195)]
 - [2026] **From Prompt Injection to Persistent Control: Defending Agentic Harness Against Trojan Backdoors** [[paper](https://arxiv.org/abs/2605.31042)]
 
@@ -289,6 +315,7 @@
 
 ##### 2026
 
+- [2026] **Airlock: Bounding the Multi-Agent Blast Radius via Selective Online Containment** [[paper](https://arxiv.org/abs/2611.06727)]
 - [2026] **ClawMMU: Protection-Coherent Virtual Memory for Stateful LLM Agents** [[paper](https://arxiv.org/abs/2610.28093)]
 - [2026] **Graph, Loop, and Harness Engineering for Zero-Trust Agentic Data Engineering and Analytical Processing** [[paper](https://arxiv.org/abs/2609.29668)]
 - [2026] **Distributing Security Controls Through Harness Engineering** [[paper](https://arxiv.org/abs/2607.25890)]
@@ -304,6 +331,7 @@
 - [2026] **Rethinking Verification in Agent Harnesses** [[paper](https://arxiv.org/abs/2610.34577)]
 - [2026] **Profiling a Frontier Agent with EBench: From Direct Control to Harness with Policy** [[paper](https://arxiv.org/abs/2610.35832)]
 - [2026] **Improving Evaluation Realism with Inference-Time Compute and Deployment Scaffolds** *NeurIPS 2026. Code* [[paper](https://arxiv.org/abs/2609.02302)]
+- [2026] **SecProbe: Adaptive Evaluation of Coding Agents on Cybersecurity Vulnerabilities** [[paper](https://arxiv.org/abs/2609.33763)]
 - [2026] **Verify Smarter, Evolve Further: Efficient Harness Evolution through Behavior-Aware Verification** [[paper](https://arxiv.org/abs/2608.27311)]
 - [2026] **Learning to Evaluate Before Improving: Automatic Rubric Induction for Automatic Research Agents** [[paper](https://arxiv.org/abs/2608.31076)]
 
@@ -335,6 +363,7 @@
 - [2026] **SHarP: Saliency-based Pruning of Agent Harnesses** [[paper](https://arxiv.org/abs/2610.04178)]
 - [2026] **EMHO: EMbodied Agent Harness Optimization via Experience Traces** [[paper](https://arxiv.org/abs/2610.08432)]
 - [2026] **Internalizing Agent Experience into Diffusion Model Weights via On-Policy Context Distillation** [[paper](https://arxiv.org/abs/2610.07250)]
+- [2026] **ProgAgent: Learning Tool Orchestration through Programmatic Training** [[paper](https://arxiv.org/abs/2610.14774)]
 - [2026] **Harness-Zero: Harness Distillation via Agent-as-Harness** [[paper](https://arxiv.org/abs/2609.24974)]
 - [2026] **Environment Evolution for Terminal Agents** [[paper](https://arxiv.org/abs/2609.04128)]
 - [2026] **Schema: Discovering Unknown Environments via Agentic Program Induction** [[paper](https://arxiv.org/abs/2609.39140)]

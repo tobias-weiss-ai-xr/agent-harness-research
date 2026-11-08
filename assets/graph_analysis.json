@@ -22,38 +22,38 @@
   {
    "id": "context",
    "name": "Context & State Management",
-   "count": 7,
+   "count": 8,
    "trajectory": {
-    "2026": 7
+    "2026": 8
    },
    "momentum": {
     "id": "context",
     "name": "Context",
-    "total": 7,
-    "recent": 7,
+    "total": 8,
+    "recent": 8,
     "prior": 0,
     "growth_pct": null,
     "recent_share": 1.0,
-    "papers_per_month": 0.6,
+    "papers_per_month": 0.7,
     "score": 100.0
    }
   },
   {
    "id": "evaluation",
    "name": "Evaluation & Benchmarks",
-   "count": 12,
+   "count": 13,
    "trajectory": {
-    "2026": 12
+    "2026": 13
    },
    "momentum": {
     "id": "evaluation",
     "name": "Evaluation",
-    "total": 12,
-    "recent": 12,
+    "total": 13,
+    "recent": 13,
     "prior": 0,
     "growth_pct": null,
     "recent_share": 1.0,
-    "papers_per_month": 1.0,
+    "papers_per_month": 1.1,
     "score": 100.0
    }
   },
@@ -79,19 +79,19 @@
   {
    "id": "method",
    "name": "Methods & Architectures",
-   "count": 20,
+   "count": 21,
    "trajectory": {
-    "2026": 20
+    "2026": 21
    },
    "momentum": {
     "id": "method",
     "name": "Method",
-    "total": 20,
-    "recent": 20,
+    "total": 21,
+    "recent": 21,
     "prior": 0,
     "growth_pct": null,
     "recent_share": 1.0,
-    "papers_per_month": 1.7,
+    "papers_per_month": 1.8,
     "score": 100.0
    }
   },
@@ -117,39 +117,39 @@
   {
    "id": "runtime",
    "name": "Agent Runtimes & Harnesses",
-   "count": 149,
+   "count": 166,
    "trajectory": {
     "2025": 1,
-    "2026": 148
+    "2026": 165
    },
    "momentum": {
     "id": "runtime",
     "name": "Runtime",
-    "total": 149,
-    "recent": 148,
+    "total": 166,
+    "recent": 165,
     "prior": 1,
-    "growth_pct": 14700.0,
-    "recent_share": 0.993,
-    "papers_per_month": 12.3,
-    "score": 14799.3
+    "growth_pct": 16400.0,
+    "recent_share": 0.994,
+    "papers_per_month": 13.8,
+    "score": 16499.4
    }
   },
   {
    "id": "safety",
    "name": "Safety, Permissions & Sandboxing",
-   "count": 12,
+   "count": 21,
    "trajectory": {
-    "2026": 12
+    "2026": 21
    },
    "momentum": {
     "id": "safety",
     "name": "Safety",
-    "total": 12,
-    "recent": 12,
+    "total": 21,
+    "recent": 21,
     "prior": 0,
     "growth_pct": null,
     "recent_share": 1.0,
-    "papers_per_month": 1.0,
+    "papers_per_month": 1.8,
     "score": 100.0
    }
   },
@@ -187,7 +187,7 @@
   {
    "id": "method",
    "name": "Method",
-   "count": 41
+   "count": 53
   },
   {
    "id": "survey",
@@ -197,7 +197,7 @@
   {
    "id": "systems",
    "name": "Systems",
-   "count": 151
+   "count": 168
   },
   {
    "id": "theory",
@@ -673,6 +673,21 @@
   ],
   [
    "2026-08",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-08",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-08",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-08",
    "safety",
    "experiment"
   ],
@@ -680,6 +695,11 @@
    "2026-08",
    "safety",
    "experiment"
+  ],
+  [
+   "2026-08",
+   "safety",
+   "method"
   ],
   [
    "2026-08",
@@ -708,6 +728,11 @@
   ],
   [
    "2026-09",
+   "evaluation",
+   "method"
+  ],
+  [
+   "2026-09",
    "method",
    "experiment"
   ],
@@ -853,6 +878,36 @@
   ],
   [
    "2026-09",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-09",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-09",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-09",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-09",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-09",
+   "safety",
+   "method"
+  ],
+  [
+   "2026-09",
    "safety",
    "method"
   ],
@@ -909,6 +964,11 @@
   [
    "2026-10",
    "interface",
+   "method"
+  ],
+  [
+   "2026-10",
+   "method",
    "method"
   ],
   [
@@ -959,6 +1019,41 @@
   [
    "2026-10",
    "runtime",
+   "method"
+  ],
+  [
+   "2026-10",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-10",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-10",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-10",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-10",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-10",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-10",
+   "runtime",
    "systems"
   ],
   [
@@ -1209,7 +1304,37 @@
   [
    "2026-10",
    "safety",
+   "method"
+  ],
+  [
+   "2026-10",
+   "safety",
+   "method"
+  ],
+  [
+   "2026-10",
+   "safety",
+   "method"
+  ],
+  [
+   "2026-10",
+   "safety",
+   "method"
+  ],
+  [
+   "2026-10",
+   "safety",
+   "method"
+  ],
+  [
+   "2026-10",
+   "safety",
    "systems"
+  ],
+  [
+   "2026-11",
+   "context",
+   "method"
   ],
   [
    "2026-11",
@@ -1245,6 +1370,26 @@
    "2026-11",
    "runtime",
    "systems"
+  ],
+  [
+   "2026-11",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-11",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-11",
+   "safety",
+   "method"
+  ],
+  [
+   "2026-11",
+   "safety",
+   "systems"
   ]
  ],
  "venues": [
@@ -1264,66 +1409,66 @@
  "keyword_bursts": [
   {
    "keyword": "agent",
-   "recent": 207,
-   "total": 208,
+   "recent": 236,
+   "total": 237,
    "burst_score": 1.0,
    "recent_share": 1.0
   },
   {
    "keyword": "harness",
-   "recent": 206,
-   "total": 207,
+   "recent": 235,
+   "total": 236,
    "burst_score": 1.0,
-   "recent_share": 0.9952
+   "recent_share": 0.9958
   },
   {
    "keyword": "tool",
-   "recent": 97,
-   "total": 97,
+   "recent": 107,
+   "total": 107,
    "burst_score": 1.0,
-   "recent_share": 0.4686
+   "recent_share": 0.4534
   },
   {
    "keyword": "context",
-   "recent": 75,
-   "total": 75,
+   "recent": 82,
+   "total": 82,
    "burst_score": 1.0,
-   "recent_share": 0.3623
+   "recent_share": 0.3475
   },
   {
    "keyword": "runtime",
-   "recent": 28,
-   "total": 28,
+   "recent": 43,
+   "total": 43,
    "burst_score": 1.0,
-   "recent_share": 0.1353
+   "recent_share": 0.1822
   },
   {
    "keyword": "orchestration",
-   "recent": 16,
-   "total": 16,
+   "recent": 19,
+   "total": 19,
    "burst_score": 1.0,
-   "recent_share": 0.0773
-  },
-  {
-   "keyword": "sandbox",
-   "recent": 9,
-   "total": 9,
-   "burst_score": 1.0,
-   "recent_share": 0.0435
+   "recent_share": 0.0805
   },
   {
    "keyword": "permission",
-   "recent": 6,
-   "total": 6,
+   "recent": 10,
+   "total": 10,
    "burst_score": 1.0,
-   "recent_share": 0.029
+   "recent_share": 0.0424
+  },
+  {
+   "keyword": "sandbox",
+   "recent": 10,
+   "total": 10,
+   "burst_score": 1.0,
+   "recent_share": 0.0424
   },
   {
    "keyword": "meta access",
    "recent": 1,
    "total": 1,
    "burst_score": 1.0,
-   "recent_share": 0.0048
+   "recent_share": 0.0042
   }
  ]
 }

@@ -153,18 +153,18 @@ This repo is designed to be driven by coding agents (OpenCode, Claude Code, …)
 
 ## 📊 Corpus Statistics
 
-**208 papers** across **9 categories**.  
-Sources: **arXiv** 208 (100%).  
+**237 papers** across **9 categories**.  
+Sources: **arXiv** 237 (100%).  
 
 ### Top categories
 
 | Category | Papers | Recent | |
 |----------|--------|--------|-|
-| runtime | **149** | 148 | ████████████ |
-| method | **20** | 20 | ██░░░░░░░░░░ |
-| evaluation | **12** | 12 | █░░░░░░░░░░░ |
-| safety | **12** | 12 | █░░░░░░░░░░░ |
-| context | **7** | 7 | █░░░░░░░░░░░ |
+| runtime | **166** | 165 | ████████████ |
+| method | **21** | 21 | ██░░░░░░░░░░ |
+| safety | **21** | 21 | ██░░░░░░░░░░ |
+| evaluation | **13** | 13 | █░░░░░░░░░░░ |
+| context | **8** | 8 | █░░░░░░░░░░░ |
 | interface | **3** | 3 | █░░░░░░░░░░░ |
 | application | **2** | 2 | █░░░░░░░░░░░ |
 | orchestration | **2** | 2 | █░░░░░░░░░░░ |
@@ -175,34 +175,34 @@ Sources: **arXiv** 208 (100%).
 | Year | Papers | |
 |------|--------|-|
 | 2025 | 1 | █░░░░░░░░░░░ |
-| 2026 | 207 | ████████████ |
+| 2026 | 236 | ████████████ |
 
 ### Momentum (hottest categories)
 
 | Category | Total | Rate | Recent | Score |
 |----------|-------|------|--------|-------|
-| Runtime | 149 | 12.3/mo | 99% | 14799 |
+| Runtime | 166 | 13.8/mo | 99% | 16499 |
 | Application | 2 | 0.2/mo | 100% | 100 |
-| Context | 7 | 0.6/mo | 100% | 100 |
-| Evaluation | 12 | 1.0/mo | 100% | 100 |
+| Context | 8 | 0.7/mo | 100% | 100 |
+| Evaluation | 13 | 1.1/mo | 100% | 100 |
 | Interface | 3 | 0.2/mo | 100% | 100 |
-| Method | 20 | 1.7/mo | 100% | 100 |
+| Method | 21 | 1.8/mo | 100% | 100 |
 | Orchestration | 2 | 0.2/mo | 100% | 100 |
-| Safety | 12 | 1.0/mo | 100% | 100 |
+| Safety | 21 | 1.8/mo | 100% | 100 |
 | Survey | 1 | 0.1/mo | 100% | 100 |
 
 ### Trending keywords
 
 | Keyword | Papers | Burst |
 |---------|--------|-------|
-| agent | 207 | 1.0 |
-| harness | 206 | 1.0 |
-| tool | 97 | 1.0 |
-| context | 75 | 1.0 |
-| runtime | 28 | 1.0 |
-| orchestration | 16 | 1.0 |
-| sandbox | 9 | 1.0 |
-| permission | 6 | 1.0 |
+| agent | 236 | 1.0 |
+| harness | 235 | 1.0 |
+| tool | 107 | 1.0 |
+| context | 82 | 1.0 |
+| runtime | 43 | 1.0 |
+| orchestration | 19 | 1.0 |
+| permission | 10 | 1.0 |
+| sandbox | 10 | 1.0 |
 
 ### Top venues
 

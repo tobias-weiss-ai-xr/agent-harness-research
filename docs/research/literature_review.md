@@ -1,7 +1,7 @@
 # Literature Review
 
 **Generated:** 2026-11-08  
-**Corpus:** 208 papers across 9 categories
+**Corpus:** 237 papers across 9 categories
 
 > Synthesis of the corpus. Category insights are grounded in title/abstract analysis of the papers themselves.
 
@@ -11,17 +11,17 @@
 
 | Rank | Category | Papers |
 |------|----------|--------|
-| 1 | Agent Runtimes & Harnesses | 149 |
-| 2 | Methods & Architectures | 20 |
-| 3 | Evaluation & Benchmarks | 12 |
-| 4 | Safety, Permissions & Sandboxing | 12 |
-| 5 | Context & State Management | 7 |
+| 1 | Agent Runtimes & Harnesses | 166 |
+| 2 | Safety, Permissions & Sandboxing | 21 |
+| 3 | Methods & Architectures | 21 |
+| 4 | Evaluation & Benchmarks | 13 |
+| 5 | Context & State Management | 8 |
 | 6 | Interfaces & Meta-Access | 3 |
 | 7 | Applications | 2 |
 | 8 | Orchestration & Workflows | 2 |
 
 **Time span:** 2025–2026 (median year 2026)
-**Dominant aspects:** Systems (151), Methods & Architectures (41), Experiment (12)
+**Dominant aspects:** Systems (168), Methods & Architectures (53), Experiment (12)
 
 ---
 
@@ -29,14 +29,14 @@
 
 | Category | Total | Last 12m | Prior 12m | Growth | 12-m share | Papers/mo |
 |----------|------:|---------:|----------:|-------:|----------:|----------:|
-| Runtime | 149 | 148 | 1 | +14700% | 99% | 12.3 |
+| Runtime | 166 | 165 | 1 | +16400% | 99% | 13.8 |
 | Application | 2 | 2 | 0 | — | 100% | 0.2 |
-| Context | 7 | 7 | 0 | — | 100% | 0.6 |
-| Evaluation | 12 | 12 | 0 | — | 100% | 1.0 |
+| Context | 8 | 8 | 0 | — | 100% | 0.7 |
+| Evaluation | 13 | 13 | 0 | — | 100% | 1.1 |
 | Interface | 3 | 3 | 0 | — | 100% | 0.2 |
-| Method | 20 | 20 | 0 | — | 100% | 1.7 |
+| Method | 21 | 21 | 0 | — | 100% | 1.8 |
 | Orchestration | 2 | 2 | 0 | — | 100% | 0.2 |
-| Safety | 12 | 12 | 0 | — | 100% | 1.0 |
+| Safety | 21 | 21 | 0 | — | 100% | 1.8 |
 | Survey | 1 | 1 | 0 | — | 100% | 0.1 |
 
 ---
@@ -61,7 +61,7 @@
 
 ### Agent Runtimes & Harnesses (`runtime`)
 
-**Corpus size:** 149 papers
+**Corpus size:** 166 papers
 
 **Recent papers:**
 
@@ -71,9 +71,21 @@
 
 ---
 
+### Safety, Permissions & Sandboxing (`safety`)
+
+**Corpus size:** 21 papers
+
+**Recent papers:**
+
+- [2026-11] DoGNAVY-Exploit: Harnessing Parallel Open-Weight Agents for Stage-Aware Vulnerability Exploitat — https://arxiv.org/abs/2611.04196
+- [2026-11] Airlock: Bounding the Multi-Agent Blast Radius via Selective Online Containment — https://arxiv.org/abs/2611.06727
+- [2026-10] HASTE: Evolving Agent Harnesses Against Emerging Attacks Using Sparse Evidence — https://arxiv.org/abs/2610.02920
+
+---
+
 ### Methods & Architectures (`method`)
 
-**Corpus size:** 20 papers
+**Corpus size:** 21 papers
 
 **Recent papers:**
 
@@ -85,7 +97,7 @@
 
 ### Evaluation & Benchmarks (`evaluation`)
 
-**Corpus size:** 12 papers
+**Corpus size:** 13 papers
 
 **Recent papers:**
 
@@ -95,27 +107,15 @@
 
 ---
 
-### Safety, Permissions & Sandboxing (`safety`)
-
-**Corpus size:** 12 papers
-
-**Recent papers:**
-
-- [2026-10] HASTE: Evolving Agent Harnesses Against Emerging Attacks Using Sparse Evidence — https://arxiv.org/abs/2610.02920
-- [2026-10] ClawMMU: Protection-Coherent Virtual Memory for Stateful LLM Agents — https://arxiv.org/abs/2610.28093
-- [2026-10] Do AI-for-Science Agents Preserve Model Safety? — https://arxiv.org/abs/2610.32045
-
----
-
 ### Context & State Management (`context`)
 
-**Corpus size:** 7 papers
+**Corpus size:** 8 papers
 
 **Recent papers:**
 
+- [2026-11] SUMONE: A Simple and Efficient Summarizer for Plug-and-Play Agent Memory — https://arxiv.org/abs/2611.06445
 - [2026-10] Context Compaction for World Models — https://arxiv.org/abs/2610.38980
 - [2026-10] LongHarness: Advancing Agentic Reasoning over 100M-Token Corpora via Stateful Evidence Manageme — https://arxiv.org/abs/2610.13075
-- [2026-10] MarkovSim: an LLM Agent Harness with Bounded Context for Long-Horizon Computational Simulation — https://arxiv.org/abs/2610.35349
 
 ---
 
