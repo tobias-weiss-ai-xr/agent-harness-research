@@ -1,59 +1,41 @@
 ## 📚 Paper list
 
-- [📚 Methods & Architectures](#methods-&-architectures)
-  - [Agentic](#agentic)
-- [📚 Applications](#applications)
-  - [Non-Agentic](#non-agentic)
+- [📚 Agent Runtimes & Harnesses](#agent-runtimes-&-harnesses)
+- [📚 Tool Use & Execution](#tool-use-&-execution)
+- [📚 Context & State Management](#context-&-state-management)
+- [📚 Orchestration & Workflows](#orchestration-&-workflows)
+- [📚 Interfaces & Meta-Access](#interfaces-&-meta-access)
+  - [Method](#method)
+- [📚 Safety, Permissions & Sandboxing](#safety,-permissions-&-sandboxing)
 - [📚 Evaluation & Benchmarks](#evaluation-&-benchmarks)
-  - [Hybrid](#hybrid)
+- [📚 Methods & Architectures](#methods-&-architectures)
+- [📚 Applications](#applications)
 - [📚 Surveys & Taxonomies](#surveys-&-taxonomies)
-  - [Non-Agentic](#non-agentic)
-  - [Hybrid](#hybrid)
 
-### Methods & Architectures
+### Agent Runtimes & Harnesses
 
-#### Agentic
+### Tool Use & Execution
+
+### Context & State Management
+
+### Orchestration & Workflows
+
+### Interfaces & Meta-Access
+
+#### Method
 
 ##### 2026
 
-- [2026] **Example Paper 2: An Agentic Method for Your Topic** [[paper](https://arxiv.org/abs/2603.00002)]
+- [2026] **The Power of Meta Access in the Software of the Future --- Demonstrated on LLM Chat UIs and Chat AI** [[paper](https://arxiv.org/abs/2611.08428)]
 
 [⬆ Back to top](#paper-list)
 
-### Applications
-
-#### Non-Agentic
-
-##### 2025
-
-- [2025] **Example Paper 3: Application Study in Your Domain** [[paper](https://arxiv.org/abs/2511.00003)]
-
-[⬆ Back to top](#paper-list)
+### Safety, Permissions & Sandboxing
 
 ### Evaluation & Benchmarks
 
-#### Hybrid
+### Methods & Architectures
 
-##### 2025
-
-- [2025] **Example Paper 4: An Evaluation Benchmark for Your Topic** [[paper](https://arxiv.org/abs/2508.00004)]
-
-[⬆ Back to top](#paper-list)
+### Applications
 
 ### Surveys & Taxonomies
-
-#### Non-Agentic
-
-##### 2025
-
-- [2025] **Example Paper 5: A Survey of Your Topic Across Domains** [[paper](https://arxiv.org/abs/2505.00005)]
-
-[⬆ Back to top](#paper-list)
-
-#### Hybrid
-
-##### 2026
-
-- [2026] **Example Paper 1: A Foundational Survey of Your Topic** [[paper](https://arxiv.org/abs/2601.00001)]
-
-[⬆ Back to top](#paper-list)

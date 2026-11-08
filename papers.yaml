@@ -1,70 +1,38 @@
 papers:
-- title: 'Example Paper 1: A Foundational Survey of Your Topic'
-  date: 2026-01
-  url: https://arxiv.org/abs/2601.00001
-  category: survey
-  subcategory: hybrid
+- title: 'The Power of Meta Access in the Software of the Future --- Demonstrated on LLM Chat UIs and Chat AI'
+  date: 2026-11
+  url: https://arxiv.org/abs/2611.08428
+  category: interface
+  subcategory: method
   authors:
-  - Example Author A
-  - Example Author B
+  - Julian Kunkel
+  - Ali Doosthosseini
   venue: ''
   code_url: ''
   project_url: ''
-  abstract: This is a placeholder abstract. Replace it with a real summary of the
-    paper. The corpus pipeline uses title/abstract text for trend analysis, so keep
-    abstracts accurate.
-  tags: []
-- title: 'Example Paper 2: An Agentic Method for Your Topic'
-  date: 2026-03
-  url: https://arxiv.org/abs/2603.00002
-  category: method
-  subcategory: agentic
-  authors:
-  - Example Author C
-  venue: ''
-  code_url: ''
-  project_url: ''
-  abstract: Another placeholder abstract. Papers are grouped by (category, subcategory)
-    and sorted by year in the generated README.
-  tags: []
-- title: 'Example Paper 3: Application Study in Your Domain'
-  date: 2025-11
-  url: https://arxiv.org/abs/2511.00003
-  category: application
-  subcategory: non-agentic
-  authors:
-  - Example Author D
-  - Example Author E
-  venue: ''
-  code_url: ''
-  project_url: ''
-  abstract: A third placeholder. Once you add real papers, re-run the pipeline to
-    regenerate statistics and reports.
-  tags: []
-- title: 'Example Paper 4: An Evaluation Benchmark for Your Topic'
-  date: 2025-08
-  url: https://arxiv.org/abs/2508.00004
-  category: evaluation
-  subcategory: hybrid
-  authors:
-  - Example Author F
-  venue: ''
-  code_url: ''
-  project_url: ''
-  abstract: A placeholder abstract. This example demonstrates the evaluation category
-    with a hybrid subcategory. Replace with a real summary once you add actual papers.
-  tags: []
-- title: 'Example Paper 5: A Survey of Your Topic Across Domains'
-  date: 2025-05
-  url: https://arxiv.org/abs/2505.00005
-  category: survey
-  subcategory: non-agentic
-  authors:
-  - Example Author G
-  - Example Author H
-  venue: ''
-  code_url: ''
-  project_url: ''
-  abstract: Another placeholder abstract. The corpus pipeline uses title/abstract
-    text for trend analysis, so keep abstracts accurate when you add real papers.
+  abstract: >
+    Chat remains the default surface for many large language model (LLM) tasks,
+    even as agentic tools such as OpenCode excel at coding and automation. Yet the
+    model sees the current dialogue but not the workspace around it. We explore
+    meta access---giving the assistant a structured, permissioned view of the
+    interface itself and propose a ladder of levels: feature tutoring; metadata,
+    settings, and preference access; retrieval over summaries and messages,
+    confirmed mutation, and full orchestration. Meta access can turn a chat client
+    from many screens into one entry point for finding, navigating, organising,
+    and operating it, while raising risks around grounding, privacy, prompt
+    injection, and trust. General-purpose agentic harnesses are runtimes; because
+    they can change their own settings, meta access becomes reflexive and needs a
+    separate control-plane boundary. We ground this in the Meta Chat prototype of
+    the Chat AI client. It builds bounded context from, e.g., summaries, settings,
+    and relevant messages; links references to conversations, topics, and
+    personas; supports confirmed, reversible changes; offers a browsable tutorial
+    library; and recommends personas as user-started conversations. By exposing
+    application state in structured form, meta access can extend screen readers
+    from widget descriptions to semantic workspace operations. Meta access thus
+    turns chat from a window onto one conversation into a control layer for the
+    whole workspace, extending chat toward agentic capability without surrendering
+    user control. As assistants become embedded in IDEs, dashboards, office
+    suites, and operating systems, AI-era interfaces should expose a structured,
+    permissioned model of their state and capabilities, ideally by opening their
+    existing metamodels through a debugger-like interface.
   tags: []

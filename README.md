@@ -1,11 +1,11 @@
 <h1 align="center">
-  <strong>Research Corpus Skeleton</strong>
+  <strong>Agent Harness</strong>
 </h1>
 <h3 align="center">Agentic literature review, jump-started — fork me for your own topic</h3>
 
 ### 🔗 Links
 
-- **License**: https://github.com/tobias-weiss-ai-xr/skeleton-research/blob/main/LICENSE
+- **License**: https://github.com/<YOUR_ORG>/agent-harness-research/blob/main/LICENSE
 - **CI**: https://github.com/<YOUR_ORG>/<YOUR_REPO>/actions/workflows/validate.yml
 - **GitHub Pages**: https://<YOUR_ORG>.github.io/<YOUR_REPO>/
 - **Paper list**: [docs/paper_list.md](docs/paper_list.md) (auto-generated, grouped by taxonomy)
@@ -36,7 +36,7 @@
 
 ```bash
 # 1. Clone and rename
-git clone https://github.com/tobias-weiss-ai-xr/skeleton-research.git my-topic-research
+git clone https://github.com/<YOUR_ORG>/agent-harness-research.git my-topic-research
 cd my-topic-research
 git remote set-url origin https://github.com/<YOUR_ORG>/my-topic-research.git  # repoint to your fork
 cd my-topic-research
@@ -171,54 +171,47 @@ This repo is designed to be driven by coding agents (OpenCode, Claude Code, …)
 
 ## 📊 Corpus Statistics
 
-**5 papers** across **4 categories**.  
-Sources: **arXiv** 5 (100%).  
+**1 papers** across **1 categories**.  
+Sources: **arXiv** 1 (100%).  
 
 ### Top categories
 
 | Category | Papers | Recent | |
 |----------|--------|--------|-|
-| survey | **2** | 1 | ████████████ |
-| application | **1** | 1 | ██████░░░░░░ |
-| evaluation | **1** | 0 | ██████░░░░░░ |
-| method | **1** | 1 | ██████░░░░░░ |
+| interface | **1** | 1 | ████████████ |
 
 ### By year
 
 | Year | Papers | |
 |------|--------|-|
-| 2025 | 3 | ████████████ |
-| 2026 | 2 | ████████░░░░ |
+| 2026 | 1 | ████████████ |
 
 ### Momentum (hottest categories)
 
 | Category | Total | Rate | Recent | Score |
 |----------|-------|------|--------|-------|
-| Application | 1 | 0.1/mo | 100% | 100 |
-| Method | 1 | 0.1/mo | 100% | 100 |
-| Survey | 2 | 0.1/mo | 50% | 50 |
-| Evaluation | 1 | 0.0/mo | 0% | -100 |
+| Interface | 1 | 0.1/mo | 100% | 100 |
 
 ### Trending keywords
 
 | Keyword | Papers | Burst |
 |---------|--------|-------|
-| method | 1 | 1.67 |
-| application | 1 | 1.67 |
-| survey | 1 | 0.83 |
-| analysis | 1 | 0.83 |
+| harness | 1 | 1.0 |
+| runtime | 1 | 1.0 |
+| agent | 1 | 1.0 |
+| tool | 1 | 1.0 |
+| context | 1 | 1.0 |
+| orchestration | 1 | 1.0 |
+| permission | 1 | 1.0 |
+| meta access | 1 | 1.0 |
 
 ### Research gaps (thinnest cells)
 
 | Cell | Papers |
 |------|--------|
-| `survey/hybrid` | 1 |
-| `method/agentic` | 1 |
-| `application/non-agentic` | 1 |
-| `evaluation/hybrid` | 1 |
-| `survey/non-agentic` | 1 |
+| `interface/method` | 1 |
 
-*Generated 2026-10 by `scripts/standard_stats.py`.*
+*Generated 2026-11 by `scripts/standard_stats.py`.*
 
 <!-- END CORPUS STATISTICS -->
 
@@ -232,7 +225,7 @@ If you use this skeleton for a project, please cite:
   title = {Research Corpus Skeleton: Data-Driven Agentic Literature Review},
   year = {2026},
   publisher = {GitHub},
-  url = {https://github.com/tobias-weiss-ai-xr/skeleton-research}
+  url = {https://github.com/<YOUR_ORG>/agent-harness-research}
 }
 ```
 

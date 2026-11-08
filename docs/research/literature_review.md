@@ -1,7 +1,7 @@
 # Literature Review
 
-**Generated:** 2026-10-30  
-**Corpus:** 5 papers across 4 categories
+**Generated:** 2026-11-08  
+**Corpus:** 1 papers across 1 categories
 
 > Synthesis of the corpus. Category insights are grounded in title/abstract analysis of the papers themselves.
 
@@ -11,13 +11,10 @@
 
 | Rank | Category | Papers |
 |------|----------|--------|
-| 1 | Surveys & Taxonomies | 2 |
-| 2 | Methods & Architectures | 1 |
-| 3 | Applications | 1 |
-| 4 | Evaluation & Benchmarks | 1 |
+| 1 | Interfaces & Meta-Access | 1 |
 
-**Time span:** 2025–2026 (median year 2026)
-**Dominant aspects:** Hybrid (2), Non-Agentic (2), Agentic (1)
+**Time span:** 2026–2026 (median year 2026)
+**Dominant aspects:** Methods & Architectures (1)
 
 ---
 
@@ -25,10 +22,7 @@
 
 | Category | Total | Last 12m | Prior 12m | Growth | 12-m share | Papers/mo |
 |----------|------:|---------:|----------:|-------:|----------:|----------:|
-| Application | 1 | 1 | 0 | — | 100% | 0.1 |
-| Method | 1 | 1 | 0 | — | 100% | 0.1 |
-| Survey | 2 | 1 | 1 | +0% | 50% | 0.1 |
-| Evaluation | 1 | 0 | 1 | -100% | 0% | 0.0 |
+| Interface | 1 | 1 | 0 | — | 100% | 0.1 |
 
 ---
 
@@ -36,55 +30,20 @@
 
 | Cell | Papers |
 |------|--------:|
-| `survey/hybrid` | 1 |
-| `method/agentic` | 1 |
-| `application/non-agentic` | 1 |
-| `evaluation/hybrid` | 1 |
-| `survey/non-agentic` | 1 |
+| `interface/method` | 1 |
 
 ---
 
 
 ## Category Insights
 
-### Surveys & Taxonomies (`survey`)
-
-**Corpus size:** 2 papers
-
-**Recent papers:**
-
-- [2026-01] Example Paper 1: A Foundational Survey of Your Topic — https://arxiv.org/abs/2601.00001
-- [2025-05] Example Paper 5: A Survey of Your Topic Across Domains — https://arxiv.org/abs/2505.00005
-
----
-
-### Methods & Architectures (`method`)
+### Interfaces & Meta-Access (`interface`)
 
 **Corpus size:** 1 papers
 
 **Recent papers:**
 
-- [2026-03] Example Paper 2: An Agentic Method for Your Topic — https://arxiv.org/abs/2603.00002
-
----
-
-### Applications (`application`)
-
-**Corpus size:** 1 papers
-
-**Recent papers:**
-
-- [2025-11] Example Paper 3: Application Study in Your Domain — https://arxiv.org/abs/2511.00003
-
----
-
-### Evaluation & Benchmarks (`evaluation`)
-
-**Corpus size:** 1 papers
-
-**Recent papers:**
-
-- [2025-08] Example Paper 4: An Evaluation Benchmark for Your Topic — https://arxiv.org/abs/2508.00004
+- [2026-11] The Power of Meta Access in the Software of the Future --- Demonstrated on LLM Chat UIs and Cha — https://arxiv.org/abs/2611.08428
 
 ---
 

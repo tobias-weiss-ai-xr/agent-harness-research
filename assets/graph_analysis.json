@@ -1,15 +1,15 @@
 {
  "categories": [
   {
-   "id": "application",
-   "name": "Applications",
+   "id": "interface",
+   "name": "Interfaces & Meta-Access",
    "count": 1,
    "trajectory": {
-    "2025": 1
+    "2026": 1
    },
    "momentum": {
-    "id": "application",
-    "name": "Application",
+    "id": "interface",
+    "name": "Interface",
     "total": 1,
     "recent": 1,
     "prior": 0,
@@ -17,140 +17,80 @@
     "recent_share": 1.0,
     "papers_per_month": 0.1,
     "score": 100.0
-   }
-  },
-  {
-   "id": "evaluation",
-   "name": "Evaluation & Benchmarks",
-   "count": 1,
-   "trajectory": {
-    "2025": 1
-   },
-   "momentum": {
-    "id": "evaluation",
-    "name": "Evaluation",
-    "total": 1,
-    "recent": 0,
-    "prior": 1,
-    "growth_pct": -100.0,
-    "recent_share": 0.0,
-    "papers_per_month": 0.0,
-    "score": -100.0
-   }
-  },
-  {
-   "id": "method",
-   "name": "Methods & Architectures",
-   "count": 1,
-   "trajectory": {
-    "2026": 1
-   },
-   "momentum": {
-    "id": "method",
-    "name": "Method",
-    "total": 1,
-    "recent": 1,
-    "prior": 0,
-    "growth_pct": null,
-    "recent_share": 1.0,
-    "papers_per_month": 0.1,
-    "score": 100.0
-   }
-  },
-  {
-   "id": "survey",
-   "name": "Surveys & Taxonomies",
-   "count": 2,
-   "trajectory": {
-    "2025": 1,
-    "2026": 1
-   },
-   "momentum": {
-    "id": "survey",
-    "name": "Survey",
-    "total": 2,
-    "recent": 1,
-    "prior": 1,
-    "growth_pct": 0.0,
-    "recent_share": 0.5,
-    "papers_per_month": 0.1,
-    "score": 50.0
    }
   }
  ],
  "subcategories": [
   {
-   "id": "agentic",
-   "name": "Agentic",
+   "id": "method",
+   "name": "Method",
    "count": 1
-  },
-  {
-   "id": "hybrid",
-   "name": "Hybrid",
-   "count": 2
-  },
-  {
-   "id": "non-agentic",
-   "name": "Non-Agentic",
-   "count": 2
   }
  ],
  "timeline": [
   [
-   "2025-05",
-   "survey",
-   "non-agentic"
-  ],
-  [
-   "2025-08",
-   "evaluation",
-   "hybrid"
-  ],
-  [
-   "2025-11",
-   "application",
-   "non-agentic"
-  ],
-  [
-   "2026-01",
-   "survey",
-   "hybrid"
-  ],
-  [
-   "2026-03",
-   "method",
-   "agentic"
+   "2026-11",
+   "interface",
+   "method"
   ]
  ],
  "venues": [],
  "keyword_bursts": [
   {
-   "keyword": "method",
+   "keyword": "harness",
    "recent": 1,
    "total": 1,
-   "burst_score": 1.67,
-   "recent_share": 0.3333
+   "burst_score": 1.0,
+   "recent_share": 1.0
   },
   {
-   "keyword": "application",
+   "keyword": "runtime",
    "recent": 1,
    "total": 1,
-   "burst_score": 1.67,
-   "recent_share": 0.3333
+   "burst_score": 1.0,
+   "recent_share": 1.0
   },
   {
-   "keyword": "survey",
+   "keyword": "agent",
    "recent": 1,
-   "total": 2,
-   "burst_score": 0.83,
-   "recent_share": 0.3333
+   "total": 1,
+   "burst_score": 1.0,
+   "recent_share": 1.0
   },
   {
-   "keyword": "analysis",
+   "keyword": "tool",
    "recent": 1,
-   "total": 2,
-   "burst_score": 0.83,
-   "recent_share": 0.3333
+   "total": 1,
+   "burst_score": 1.0,
+   "recent_share": 1.0
+  },
+  {
+   "keyword": "context",
+   "recent": 1,
+   "total": 1,
+   "burst_score": 1.0,
+   "recent_share": 1.0
+  },
+  {
+   "keyword": "orchestration",
+   "recent": 1,
+   "total": 1,
+   "burst_score": 1.0,
+   "recent_share": 1.0
+  },
+  {
+   "keyword": "permission",
+   "recent": 1,
+   "total": 1,
+   "burst_score": 1.0,
+   "recent_share": 1.0
+  },
+  {
+   "keyword": "meta access",
+   "recent": 1,
+   "total": 1,
+   "burst_score": 1.0,
+   "recent_share": 1.0
   }
  ]
 }
