@@ -117,40 +117,41 @@
   {
    "id": "runtime",
    "name": "Agent Runtimes & Harnesses",
-   "count": 166,
+   "count": 183,
    "trajectory": {
-    "2025": 1,
-    "2026": 165
+    "2025": 4,
+    "2026": 168
    },
    "momentum": {
     "id": "runtime",
     "name": "Runtime",
-    "total": 166,
-    "recent": 165,
-    "prior": 1,
-    "growth_pct": 16400.0,
-    "recent_share": 0.994,
-    "papers_per_month": 13.8,
-    "score": 16499.4
+    "total": 183,
+    "recent": 168,
+    "prior": 4,
+    "growth_pct": 4100.0,
+    "recent_share": 0.918,
+    "papers_per_month": 14.0,
+    "score": 4191.8
    }
   },
   {
    "id": "safety",
    "name": "Safety, Permissions & Sandboxing",
-   "count": 21,
+   "count": 30,
    "trajectory": {
-    "2026": 21
+    "2025": 1,
+    "2026": 22
    },
    "momentum": {
     "id": "safety",
     "name": "Safety",
-    "total": 21,
-    "recent": 21,
-    "prior": 0,
-    "growth_pct": null,
-    "recent_share": 1.0,
+    "total": 30,
+    "recent": 22,
+    "prior": 1,
+    "growth_pct": 2100.0,
+    "recent_share": 0.733,
     "papers_per_month": 1.8,
-    "score": 100.0
+    "score": 2173.3
    }
   },
   {
@@ -197,7 +198,7 @@
   {
    "id": "systems",
    "name": "Systems",
-   "count": 168
+   "count": 194
   },
   {
    "id": "theory",
@@ -207,7 +208,27 @@
  ],
  "timeline": [
   [
+   "2025-01",
+   "safety",
+   "systems"
+  ],
+  [
    "2025-09",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2025-09",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2025-09",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2025-10",
    "runtime",
    "systems"
   ],
@@ -253,6 +274,16 @@
   ],
   [
    "2026-03",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-03",
+   "safety",
+   "systems"
+  ],
+  [
+   "2026-04",
    "runtime",
    "systems"
   ],
@@ -568,6 +599,11 @@
   ],
   [
    "2026-07",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-07",
    "safety",
    "experiment"
   ],
@@ -775,6 +811,11 @@
    "2026-09",
    "runtime",
    "method"
+  ],
+  [
+   "2026-09",
+   "runtime",
+   "systems"
   ],
   [
    "2026-09",
@@ -1413,71 +1454,103 @@
   {
    "name": "Preprints.org",
    "papers": 1
+  },
+  {
+   "name": "CRAN: Contributed Packages",
+   "papers": 1
+  },
+  {
+   "name": "Advances in Computational Intelligence and Robotics",
+   "papers": 1
+  },
+  {
+   "name": "2026 IEEE International Conference on Software Services Engineering (SSE)",
+   "papers": 1
+  },
+  {
+   "name": "2025 IEEE 19th International Conference on Application of Information and Communication Technologies (AICT)",
+   "papers": 1
+  },
+  {
+   "name": "2026 International Conference on Artificial Intelligence, Systems, and Emerging Technologies (ICAISET)",
+   "papers": 1
+  },
+  {
+   "name": "2026 International Conference on Advanced Computing Technologies (ICACT)",
+   "papers": 1
+  },
+  {
+   "name": "Advances in Neural Information Processing Systems 38",
+   "papers": 1
+  },
+  {
+   "name": "Journal of AI, Robotics &amp; Workplace Automation",
+   "papers": 1
   }
  ],
  "keyword_bursts": [
   {
-   "keyword": "agent",
-   "recent": 237,
-   "total": 238,
-   "burst_score": 1.0,
-   "recent_share": 1.0
-  },
-  {
-   "keyword": "harness",
-   "recent": 236,
-   "total": 237,
-   "burst_score": 1.0,
-   "recent_share": 0.9958
-  },
-  {
-   "keyword": "tool",
-   "recent": 108,
-   "total": 108,
-   "burst_score": 1.0,
-   "recent_share": 0.4557
-  },
-  {
-   "keyword": "context",
-   "recent": 83,
-   "total": 83,
-   "burst_score": 1.0,
-   "recent_share": 0.3502
-  },
-  {
-   "keyword": "runtime",
-   "recent": 44,
-   "total": 44,
-   "burst_score": 1.0,
-   "recent_share": 0.1857
-  },
-  {
    "keyword": "orchestration",
    "recent": 19,
    "total": 19,
-   "burst_score": 1.0,
-   "recent_share": 0.0802
-  },
-  {
-   "keyword": "sandbox",
-   "recent": 11,
-   "total": 11,
-   "burst_score": 1.0,
-   "recent_share": 0.0464
-  },
-  {
-   "keyword": "permission",
-   "recent": 10,
-   "total": 10,
-   "burst_score": 1.0,
-   "recent_share": 0.0422
+   "burst_score": 1.1,
+   "recent_share": 0.0788
   },
   {
    "keyword": "meta access",
    "recent": 1,
    "total": 1,
+   "burst_score": 1.1,
+   "recent_share": 0.0041
+  },
+  {
+   "keyword": "harness",
+   "recent": 236,
+   "total": 242,
+   "burst_score": 1.07,
+   "recent_share": 0.9793
+  },
+  {
+   "keyword": "tool",
+   "recent": 108,
+   "total": 113,
+   "burst_score": 1.05,
+   "recent_share": 0.4481
+  },
+  {
+   "keyword": "context",
+   "recent": 83,
+   "total": 88,
+   "burst_score": 1.03,
+   "recent_share": 0.3444
+  },
+  {
+   "keyword": "agent",
+   "recent": 241,
+   "total": 261,
+   "burst_score": 1.01,
+   "recent_share": 1.0
+  },
+  {
+   "keyword": "permission",
+   "recent": 10,
+   "total": 11,
    "burst_score": 1.0,
-   "recent_share": 0.0042
+   "recent_share": 0.0415
+  },
+  {
+   "keyword": "runtime",
+   "recent": 47,
+   "total": 52,
+   "burst_score": 0.99,
+   "recent_share": 0.195
+  },
+  {
+   "keyword": "sandbox",
+   "recent": 12,
+   "total": 16,
+   "burst_score": 0.82,
+   "recent_share": 0.0498
   }
  ]
 }

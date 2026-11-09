@@ -153,16 +153,16 @@ This repo is designed to be driven by coding agents (OpenCode, Claude Code, …)
 
 ## 📊 Corpus Statistics
 
-**238 papers** across **9 categories**.  
-Sources: **arXiv** 237 (100%).  
+**264 papers** across **9 categories**.  
+Sources: **arXiv** 237 (90%).  
 
 ### Top categories
 
 | Category | Papers | Recent | |
 |----------|--------|--------|-|
-| runtime | **166** | 165 | ████████████ |
-| method | **21** | 21 | ██░░░░░░░░░░ |
-| safety | **21** | 21 | ██░░░░░░░░░░ |
+| runtime | **183** | 168 | ████████████ |
+| safety | **30** | 22 | ██░░░░░░░░░░ |
+| method | **21** | 21 | █░░░░░░░░░░░ |
 | evaluation | **13** | 13 | █░░░░░░░░░░░ |
 | context | **8** | 8 | █░░░░░░░░░░░ |
 | interface | **3** | 3 | █░░░░░░░░░░░ |
@@ -174,35 +174,35 @@ Sources: **arXiv** 237 (100%).
 
 | Year | Papers | |
 |------|--------|-|
-| 2025 | 1 | █░░░░░░░░░░░ |
-| 2026 | 237 | ████████████ |
+| 2025 | 5 | █░░░░░░░░░░░ |
+| 2026 | 241 | ████████████ |
 
 ### Momentum (hottest categories)
 
 | Category | Total | Rate | Recent | Score |
 |----------|-------|------|--------|-------|
-| Runtime | 166 | 13.8/mo | 99% | 16499 |
+| Runtime | 183 | 14.0/mo | 92% | 4192 |
+| Safety | 30 | 1.8/mo | 73% | 2173 |
 | Application | 2 | 0.2/mo | 100% | 100 |
 | Context | 8 | 0.7/mo | 100% | 100 |
 | Evaluation | 13 | 1.1/mo | 100% | 100 |
 | Interface | 3 | 0.2/mo | 100% | 100 |
 | Method | 21 | 1.8/mo | 100% | 100 |
 | Orchestration | 2 | 0.2/mo | 100% | 100 |
-| Safety | 21 | 1.8/mo | 100% | 100 |
 | Survey | 2 | 0.2/mo | 100% | 100 |
 
 ### Trending keywords
 
 | Keyword | Papers | Burst |
 |---------|--------|-------|
-| agent | 237 | 1.0 |
-| harness | 236 | 1.0 |
-| tool | 108 | 1.0 |
-| context | 83 | 1.0 |
-| runtime | 44 | 1.0 |
-| orchestration | 19 | 1.0 |
-| sandbox | 11 | 1.0 |
+| orchestration | 19 | 1.1 |
+| meta access | 1 | 1.1 |
+| harness | 236 | 1.07 |
+| tool | 108 | 1.05 |
+| context | 83 | 1.03 |
+| agent | 241 | 1.01 |
 | permission | 10 | 1.0 |
+| runtime | 47 | 0.99 |
 
 ### Top venues
 
@@ -212,6 +212,12 @@ Sources: **arXiv** 237 (100%).
 | SIGIR 2026 | 1 |
 | NeurIPS 2026. Code | 1 |
 | Preprints.org | 1 |
+| CRAN: Contributed Packages | 1 |
+| Advances in Computational Intelligence and Robotics | 1 |
+| 2026 IEEE International Conference on Software Services Engineering (SSE) | 1 |
+| 2025 IEEE 19th International Conference on Application of Information and Communication Technologies (AICT) | 1 |
+| 2026 International Conference on Artificial Intelligence, Systems, and Emerging Technologies (ICAISET) | 1 |
+| 2026 International Conference on Advanced Computing Technologies (ICACT) | 1 |
 
 ### Research gaps (thinnest cells)
 

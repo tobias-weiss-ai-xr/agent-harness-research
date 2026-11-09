@@ -1,7 +1,7 @@
 # Literature Review
 
-**Generated:** 2026-11-08  
-**Corpus:** 238 papers across 9 categories
+**Generated:** 2026-11-09  
+**Corpus:** 264 papers across 9 categories
 
 > Synthesis of the corpus. Category insights are grounded in title/abstract analysis of the papers themselves.
 
@@ -11,8 +11,8 @@
 
 | Rank | Category | Papers |
 |------|----------|--------|
-| 1 | Agent Runtimes & Harnesses | 166 |
-| 2 | Safety, Permissions & Sandboxing | 21 |
+| 1 | Agent Runtimes & Harnesses | 183 |
+| 2 | Safety, Permissions & Sandboxing | 30 |
 | 3 | Methods & Architectures | 21 |
 | 4 | Evaluation & Benchmarks | 13 |
 | 5 | Context & State Management | 8 |
@@ -21,7 +21,7 @@
 | 8 | Surveys & Taxonomies | 2 |
 
 **Time span:** 2025–2026 (median year 2026)
-**Dominant aspects:** Systems (168), Methods & Architectures (53), Experiment (12)
+**Dominant aspects:** Systems (194), Methods & Architectures (53), Experiment (12)
 
 ---
 
@@ -29,14 +29,14 @@
 
 | Category | Total | Last 12m | Prior 12m | Growth | 12-m share | Papers/mo |
 |----------|------:|---------:|----------:|-------:|----------:|----------:|
-| Runtime | 166 | 165 | 1 | +16400% | 99% | 13.8 |
+| Runtime | 183 | 168 | 4 | +4100% | 92% | 14.0 |
+| Safety | 30 | 22 | 1 | +2100% | 73% | 1.8 |
 | Application | 2 | 2 | 0 | — | 100% | 0.2 |
 | Context | 8 | 8 | 0 | — | 100% | 0.7 |
 | Evaluation | 13 | 13 | 0 | — | 100% | 1.1 |
 | Interface | 3 | 3 | 0 | — | 100% | 0.2 |
 | Method | 21 | 21 | 0 | — | 100% | 1.8 |
 | Orchestration | 2 | 2 | 0 | — | 100% | 0.2 |
-| Safety | 21 | 21 | 0 | — | 100% | 1.8 |
 | Survey | 2 | 2 | 0 | — | 100% | 0.2 |
 
 ---
@@ -61,7 +61,7 @@
 
 ### Agent Runtimes & Harnesses (`runtime`)
 
-**Corpus size:** 166 papers
+**Corpus size:** 183 papers
 
 **Recent papers:**
 
@@ -73,7 +73,7 @@
 
 ### Safety, Permissions & Sandboxing (`safety`)
 
-**Corpus size:** 21 papers
+**Corpus size:** 30 papers
 
 **Recent papers:**
 

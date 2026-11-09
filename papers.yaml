@@ -7617,5 +7617,316 @@ papers:
   venue: Preprints.org
   code_url: https://github.com/Gloriaameng/Awesome-Agent-Harness
   project_url: ''
-  abstract: 'In production environments, reliability of LLM agents is increasingly determined not by the model but by the agent harness that encapsulates it. We present the first systematic survey of the LLM agent harness, based on a review of over a hundred papers, technical reports, and industry blogs. Contributions: (1) a formal six-component definition of the agent harness H=(E,T,C,S,L,V) — execution loop, tool registry, context manager, state store, lifecycle hooks, evaluation interface; (2) a historical tracing of the harness concept from software testing and RL environments to modern LLM agents, identifying a unifying architectural pattern of a controllable, observable, verifiable runtime for unpredictable agents; (3) an empirically grounded taxonomy of 23 representative systems via a six-component completeness matrix; (4) analysis of nine cross-cutting challenges spanning sandboxing, evaluation, protocol standardization, and compute economics, including an empirical MCP-vs-A2A protocol comparison and ultra-long-context implications; (5) future directions where harness-layer infrastructure remains underdeveloped.'
+  abstract: 'In production environments, reliability of LLM agents is increasingly
+    determined not by the model but by the agent harness that encapsulates it. We
+    present the first systematic survey of the LLM agent harness, based on a review
+    of over a hundred papers, technical reports, and industry blogs. Contributions:
+    (1) a formal six-component definition of the agent harness H=(E,T,C,S,L,V) — execution
+    loop, tool registry, context manager, state store, lifecycle hooks, evaluation
+    interface; (2) a historical tracing of the harness concept from software testing
+    and RL environments to modern LLM agents, identifying a unifying architectural
+    pattern of a controllable, observable, verifiable runtime for unpredictable agents;
+    (3) an empirically grounded taxonomy of 23 representative systems via a six-component
+    completeness matrix; (4) analysis of nine cross-cutting challenges spanning sandboxing,
+    evaluation, protocol standardization, and compute economics, including an empirical
+    MCP-vs-A2A protocol comparison and ultra-long-context implications; (5) future
+    directions where harness-layer infrastructure remains underdeveloped.'
   doi: 10.20944/preprints202604.0428.v3
+- title: 'Polymer-Agent: Large Language Model Agent for Polymer Design'
+  date: ''
+  url: https://doi.org/10.1021/acs.jcim.6c00343.s001
+  category: runtime
+  subcategory: systems
+  authors: []
+  doi: 10.1021/acs.jcim.6c00343.s001
+- title: 'mini007: Lightweight Framework for Orchestrating Multi-Agent Large Language
+    Models'
+  date: 2025-09
+  url: https://doi.org/10.32614/cran.package.mini007
+  category: runtime
+  subcategory: systems
+  authors:
+  - Mohamed El Fodil Ihaddaden
+  doi: 10.32614/cran.package.mini007
+  venue: 'CRAN: Contributed Packages'
+- title: Advancements in Multi-Agent Large Language Model Systems for Next-Generation
+    AI
+  date: 2025-09
+  url: https://doi.org/10.4018/979-8-3373-1419-8.ch001
+  category: runtime
+  subcategory: systems
+  authors:
+  - Rajeshwari Sissodia
+  - Vinay Dwivedi
+  - TaraChand Verma
+  abstract: The integration of Multi-Agent Systems (MAS) with Large Language Models
+    (LLMs) represents a significant advancement in the field of artificial intelligence,
+    enabling the development of intelligent, autonomous systems capable of solving
+    complex tasks and enhancing decision-making. MAS, composed of mu
+  doi: 10.4018/979-8-3373-1419-8.ch001
+  venue: Advances in Computational Intelligence and Robotics
+- title: 'Industry Chain Agent: Large Language Model-Based Agent for Intelligent Generation
+    of Industry Chain Graph'
+  date: ''
+  url: https://doi.org/10.2139/ssrn.5242786
+  category: runtime
+  subcategory: systems
+  authors:
+  - Mengjia Du
+  - Guojun Wang
+  - Qingsong Ruan
+  doi: 10.2139/ssrn.5242786
+- title: Large Language Model Agent for Modular Task Execution in Drug Discovery
+  date: ''
+  url: https://doi.org/10.1021/acs.jcim.5c02454.s001
+  category: runtime
+  subcategory: systems
+  authors: []
+  doi: 10.1021/acs.jcim.5c02454.s001
+- title: A Multi-Agent Large Language Model Framework for NCAA Tournament Simulation&amp;nbsp;
+  date: ''
+  url: https://doi.org/10.2139/ssrn.6645998
+  category: runtime
+  subcategory: systems
+  authors:
+  - Abhyut Tangri
+  abstract: We present a full empirical evaluation of a multi-agent large language
+    model (LLM) framework applied to the 2026 NCAA Division I Men's Basketball Tournament.
+    Three specialized agentsSimulationAgent, AnalysisAgent, and OrchestratorAgentpowered
+    by Meta's Llama 3.3 70B (Groq API, temperature = 0.7) sim
+  doi: 10.2139/ssrn.6645998
+- title: Emergent Cooperative Dynamics and Causal Treatment Effects in Large Language
+    Model Multi-Agent Ecosystems
+  date: ''
+  url: https://doi.org/10.22541/au.177403077.70686468/v1
+  category: runtime
+  subcategory: systems
+  authors:
+  - Vikas Ramachandra
+  doi: 10.22541/au.177403077.70686468/v1
+- title: 'TwinGridShield: Consequence-Aware Runtime Authorization for LLM Grid-Agent
+    Actions'
+  date: ''
+  url: https://doi.org/10.2139/ssrn.7290820
+  category: runtime
+  subcategory: systems
+  authors:
+  - Md Fazley Rafy
+  abstract: Large language model (LLM)-assisted energymanagement tools can translate
+    natural-language context into structured grid commands, but syntactic validity
+    does not imply physical admissibility. This paper presents TwinGridShield, a model-independent
+    runtime authorization layer that evaluates each propo
+  doi: 10.2139/ssrn.7290820
+- title: 'Delegation-Aware Runtime Contracts for Open LLM Multi-Agent Systems: Constraint
+    Preservation, Capability Revocation, and State Recovery'
+  date: ''
+  url: https://doi.org/10.21203/rs.3.rs-10533072/v1
+  category: runtime
+  subcategory: systems
+  authors:
+  - Vinay Bamil
+  abstract: "Abstract\n                Large language model (LLM)-based multi-agent\
+    \ systems routinely delegate tasks, spawn sub-agents, share memory, and grant\
+    \ tool access, yet safety controls are commonly applied to individual agents or\
+    \ communication patterns rather than to the transfer of authority itself. We a"
+  doi: 10.21203/rs.3.rs-10533072/v1
+- title: Verifier-Grounded Runtime Mediation for LLM Agent Procedural Compliance
+  date: 2026-07
+  url: https://doi.org/10.1109/sse72781.2026.00014
+  category: runtime
+  subcategory: systems
+  authors:
+  - Hitoshi Yabusaki
+  doi: 10.1109/sse72781.2026.00014
+  venue: 2026 IEEE International Conference on Software Services Engineering (SSE)
+- title: Does Memory Credit Travel? Paired Factorial Audits of LLM-Agent Memory
+  date: ''
+  url: https://doi.org/10.2139/ssrn.7160321
+  category: runtime
+  subcategory: systems
+  authors:
+  - Alessio Rocchi
+  abstract: External memories can alter a language-model agent's behavior without
+    improving its task outcome, and the utility of one memory can depend on the bank
+    and agent that consume it. An outcome recorded after retrieval is not the memory's
+    marginal contribution, even when only one item was retrieved. We f
+  doi: 10.2139/ssrn.7160321
+- title: 'Prior Knowledge Shapes Runtime Memory Effects in LLM-Driven IDS Event Analysis:
+    A Controlled Factorial Empirical Study'
+  date: ''
+  url: https://doi.org/10.2139/ssrn.6867981
+  category: runtime
+  subcategory: systems
+  authors:
+  - Zijian Wang
+  abstract: LLM-based intrusion-detection evaluations increasingly combine prompt
+    assumptions, retrieved context, tools, workflow logic, and runtime memory, which
+    makes memory effects hard to interpret as independent evidence. This study examines
+    that problem in a fixed LLM-driven Suricata event-analysis pipeli
+  doi: 10.2139/ssrn.6867981
+- title: 'Enhancing LLM Code Generation: A Systematic Evaluation of Multi-Agent Collaboration
+    and Runtime Debugging for Accuracy, Reliability, and Latency'
+  date: 2025-10
+  url: https://doi.org/10.1109/aict67988.2025.11268754
+  category: runtime
+  subcategory: systems
+  authors:
+  - Nazmus Ashrafi
+  - Salah Bouktif
+  - Mohammed Mediani
+  doi: 10.1109/aict67988.2025.11268754
+  venue: 2025 IEEE 19th International Conference on Application of Information and
+    Communication Technologies (AICT)
+- title: 'Context Compaction Provenance (CCP) Lab: Measuring Trust-Boundary Drift
+    in LLM Agent Context Compaction'
+  date: ''
+  url: https://doi.org/10.2139/ssrn.6933161
+  category: runtime
+  subcategory: systems
+  authors:
+  - Michel Hjazeen
+  abstract: 'LLM agents increasingly summarize, compress, or otherwise compact long
+    interaction histories before continuing work. These compaction steps are often
+    treated as efficiency mechanisms, but they also rewrite mixed-trust context into
+    a new state that downstream actor models may treat as authoritative. '
+  doi: 10.2139/ssrn.6933161
+- title: Trust-Aware Runtime Verification for Autonomous LLM Agent Systems
+  date: 2026-04
+  url: https://doi.org/10.1109/icaiset66439.2026.11541707
+  category: runtime
+  subcategory: systems
+  authors:
+  - Tejas Pravinbhai Patel
+  doi: 10.1109/icaiset66439.2026.11541707
+  venue: 2026 International Conference on Artificial Intelligence, Systems, and Emerging
+    Technologies (ICAISET)
+- title: 'LLM Agent Runtime Security: A Reference Monitor Framework for Confined AI
+    Agents'
+  date: 2026-09
+  url: https://doi.org/10.1109/icact70625.2026.11748640
+  category: runtime
+  subcategory: systems
+  authors:
+  - Asha Joseph
+  - Arun AnandhaKrishnan
+  doi: 10.1109/icact70625.2026.11748640
+  venue: 2026 International Conference on Advanced Computing Technologies (ICACT)
+- title: Learned Importance Scoring for Adaptive Memory Compaction in LLM-Based Agent
+    Systems
+  date: ''
+  url: https://doi.org/10.2139/ssrn.6576151
+  category: runtime
+  subcategory: systems
+  authors:
+  - Yong Sun
+  abstract: 'Large language model (LLM) agents that operate over extended coding sessions
+    accumulate conversation histories far exceeding context window limits. Existing
+    compaction strategies—sliding window truncation, heuristic rule extraction, and
+    LLM-driven summarization—either discard critical early-session '
+  doi: 10.2139/ssrn.6576151
+- title: Autonomous API Sandbox Generation Using Agentic AI
+  date: ''
+  url: https://doi.org/10.2139/ssrn.6644819
+  category: safety
+  subcategory: systems
+  authors:
+  - Swapneswar Sundar Ray
+  abstract: Enterprise API integration remains a costly and time-consuming process
+    due to manual sandbox creation, inconsistent documentation, and delayed partner
+    onboarding. This paper presents an AI-governed Core Virtual API Engine that converts
+    API specifications into autonomous sandbox environments using te
+  doi: 10.2139/ssrn.6644819
+- title: 'Harness Resilience: From LLM Availability to Toolchain Continuity in Agentic
+    AI Engineering'
+  date: ''
+  url: https://doi.org/10.33774/coe-2026-4f53g
+  category: safety
+  subcategory: systems
+  authors:
+  - John Cheung
+  abstract: 'By early 2026, the practical value of artificial intelligence in software
+    engineering is no longer determined solely by the reliability of the underlying
+    large language model (LLM). Increasingly, productivity depends on an execution
+    harness: the surrounding runtime of prompts, tools, sandboxes, perm'
+  doi: 10.33774/coe-2026-4f53g
+- title: Enabling Agentic PCG with Harness-Controlled Local Models
+  date: ''
+  url: https://doi.org/10.2139/ssrn.7502203
+  category: safety
+  subcategory: systems
+  authors:
+  - Zehua Jiang
+  - Sam Earle
+  - Ahmed Khalifa
+  abstract: Large language models (LLMs) offer a naturallanguage interface to procedural
+    content generation (PCG), allowing designers to request and revise levels through
+    tools. Compact LLMs offer lower memory and compute requirements for local deployment,
+    making them promising candidates for in-game PCG. Yet r
+  doi: 10.2139/ssrn.7502203
+- title: 'Evaluating Agentic AI Workflows in Finance: A Harness for Grounding, Stability,
+    Permissioning, Prompt Injection, and Workflow Ablation'
+  date: ''
+  url: https://doi.org/10.2139/ssrn.6939818
+  category: safety
+  subcategory: systems
+  authors:
+  - Mike Chen
+  abstract: 'We present an evaluation harness for agentic AI workflows in finance.
+    Its defining choice is the unit of evaluation: the workflow''s artifact — a memo,
+    a signal proposal, a screening recommendation — rather than a single model answer.
+    On that harness we run five experiment families: grounding, stabil'
+  doi: 10.2139/ssrn.6939818
+- title: 'Among Us: A Sandbox for Measuring and Detecting Agentic Deception'
+  date: 2025-01
+  url: https://doi.org/10.52202/085713-0370
+  category: safety
+  subcategory: systems
+  authors:
+  - Satvik Golechha
+  - Adrià Garriga-Alonso
+  doi: 10.52202/085713-0370
+  venue: Advances in Neural Information Processing Systems 38
+- title: Small craft. Deck safety harness and safety line. Safety requirements and
+    test methods
+  date: ''
+  url: https://doi.org/10.3403/30170818u
+  category: safety
+  subcategory: systems
+  authors: []
+  doi: 10.3403/30170818u
+- title: Deck safety harness and safety line for use on recreational craft. Safety
+    requirements and test methods
+  date: ''
+  url: https://doi.org/10.3403/01305690
+  category: safety
+  subcategory: systems
+  authors: []
+  doi: 10.3403/01305690
+- title: 'Agentic AI risk-aware credit decisioning sandbox : A framework for responsible
+    financial innovation'
+  date: 2026-03
+  url: https://doi.org/10.69554/myai4122
+  category: safety
+  subcategory: systems
+  authors:
+  - Sanjoy Ghosh
+  abstract: 'The rapid evolution of artificial intelligence (AI), particularly in
+    the form of agentic systems, has introduced unprecedented capabilities for autonomous
+    decision making in various sectors, including financial services.1 These agentic
+    AI systems, characterised by their ability to act independently '
+  doi: 10.69554/myai4122
+  venue: Journal of AI, Robotics &amp; Workplace Automation
+- title: 'ACAT-TP: Guarded agentic context-aware control of transit signal priority
+    and dynamic bus lanes in a validated microsimulation sandbox'
+  date: ''
+  url: https://doi.org/10.2139/ssrn.7533335
+  category: safety
+  subcategory: systems
+  authors:
+  - Md.  Shadman Sakib Chowdhury
+  - Md. Mizanur Rahman
+  abstract: 'Transit signal priority (TSP) and dynamic bus lanes (DBL) can move more
+    people through a congested corridor, but deciding when to activate them is a passenger-weighted
+    trade-off that fixed rules handle poorly. This study introduces the Agentic Context-Aware
+    Traffic Controller (ACAT), a framework in '
+  doi: 10.2139/ssrn.7533335
