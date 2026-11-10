@@ -60,20 +60,22 @@
   {
    "id": "interface",
    "name": "Interfaces & Meta-Access",
-   "count": 3,
+   "count": 12,
    "trajectory": {
-    "2026": 3
+    "2024": 2,
+    "2025": 1,
+    "2026": 9
    },
    "momentum": {
     "id": "interface",
     "name": "Interface",
-    "total": 3,
-    "recent": 3,
-    "prior": 0,
-    "growth_pct": null,
-    "recent_share": 1.0,
-    "papers_per_month": 0.2,
-    "score": 100.0
+    "total": 12,
+    "recent": 9,
+    "prior": 1,
+    "growth_pct": 800.0,
+    "recent_share": 0.75,
+    "papers_per_month": 0.8,
+    "score": 875.0
    }
   },
   {
@@ -117,21 +119,21 @@
   {
    "id": "runtime",
    "name": "Agent Runtimes & Harnesses",
-   "count": 183,
+   "count": 353,
    "trajectory": {
-    "2025": 4,
-    "2026": 168
+    "2025": 8,
+    "2026": 333
    },
    "momentum": {
     "id": "runtime",
     "name": "Runtime",
-    "total": 183,
-    "recent": 168,
-    "prior": 4,
-    "growth_pct": 4100.0,
-    "recent_share": 0.918,
-    "papers_per_month": 14.0,
-    "score": 4191.8
+    "total": 353,
+    "recent": 334,
+    "prior": 7,
+    "growth_pct": 4671.4,
+    "recent_share": 0.946,
+    "papers_per_month": 27.8,
+    "score": 4766.0
    }
   },
   {
@@ -176,6 +178,11 @@
  ],
  "subcategories": [
   {
+   "id": "",
+   "name": "",
+   "count": 176
+  },
+  {
    "id": "development",
    "name": "Development",
    "count": 1
@@ -198,7 +205,7 @@
   {
    "id": "systems",
    "name": "Systems",
-   "count": 194
+   "count": 197
   },
   {
    "id": "theory",
@@ -208,9 +215,29 @@
  ],
  "timeline": [
   [
+   "2024-02",
+   "interface",
+   ""
+  ],
+  [
+   "2024-06",
+   "interface",
+   ""
+  ],
+  [
    "2025-01",
    "safety",
    "systems"
+  ],
+  [
+   "2025-06",
+   "runtime",
+   ""
+  ],
+  [
+   "2025-07",
+   "interface",
+   ""
   ],
   [
    "2025-09",
@@ -230,7 +257,97 @@
   [
    "2025-10",
    "runtime",
+   ""
+  ],
+  [
+   "2025-10",
+   "runtime",
+   ""
+  ],
+  [
+   "2025-10",
+   "runtime",
    "systems"
+  ],
+  [
+   "2025-12",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-01",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-01",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-01",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-01",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-01",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-01",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-01",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-01",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-01",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-01",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-01",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-01",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-01",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-01",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-01",
+   "runtime",
+   ""
   ],
   [
    "2026-01",
@@ -240,7 +357,12 @@
   [
    "2026-02",
    "runtime",
-   "systems"
+   ""
+  ],
+  [
+   "2026-02",
+   "runtime",
+   ""
   ],
   [
    "2026-02",
@@ -256,6 +378,31 @@
    "2026-02",
    "runtime",
    "systems"
+  ],
+  [
+   "2026-02",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-03",
+   "interface",
+   ""
+  ],
+  [
+   "2026-03",
+   "interface",
+   ""
+  ],
+  [
+   "2026-03",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-03",
+   "runtime",
+   ""
   ],
   [
    "2026-03",
@@ -281,6 +428,41 @@
    "2026-03",
    "safety",
    "systems"
+  ],
+  [
+   "2026-04",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-04",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-04",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-04",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-04",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-04",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-04",
+   "runtime",
+   ""
   ],
   [
    "2026-04",
@@ -335,6 +517,116 @@
   [
    "2026-05",
    "runtime",
+   ""
+  ],
+  [
+   "2026-05",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-05",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-05",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-05",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-05",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-05",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-05",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-05",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-05",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-05",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-05",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-05",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-05",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-05",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-05",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-05",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-05",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-05",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-05",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-05",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-05",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-05",
+   "runtime",
    "method"
   ],
   [
@@ -451,6 +743,121 @@
    "2026-06",
    "method",
    "method"
+  ],
+  [
+   "2026-06",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-06",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-06",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-06",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-06",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-06",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-06",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-06",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-06",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-06",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-06",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-06",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-06",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-06",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-06",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-06",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-06",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-06",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-06",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-06",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-06",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-06",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-06",
+   "runtime",
+   ""
   ],
   [
    "2026-06",
@@ -530,6 +937,86 @@
   [
    "2026-07",
    "runtime",
+   ""
+  ],
+  [
+   "2026-07",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-07",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-07",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-07",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-07",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-07",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-07",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-07",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-07",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-07",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-07",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-07",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-07",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-07",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-07",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-07",
+   "runtime",
    "method"
   ],
   [
@@ -636,6 +1123,106 @@
    "2026-08",
    "method",
    "method"
+  ],
+  [
+   "2026-08",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-08",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-08",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-08",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-08",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-08",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-08",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-08",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-08",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-08",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-08",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-08",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-08",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-08",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-08",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-08",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-08",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-08",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-08",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-08",
+   "runtime",
+   ""
   ],
   [
    "2026-08",
@@ -774,6 +1361,11 @@
   ],
   [
    "2026-09",
+   "interface",
+   ""
+  ],
+  [
+   "2026-09",
    "method",
    "experiment"
   ],
@@ -806,6 +1398,171 @@
    "2026-09",
    "orchestration",
    "method"
+  ],
+  [
+   "2026-09",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-09",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-09",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-09",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-09",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-09",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-09",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-09",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-09",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-09",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-09",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-09",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-09",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-09",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-09",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-09",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-09",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-09",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-09",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-09",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-09",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-09",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-09",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-09",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-09",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-09",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-09",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-09",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-09",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-09",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-09",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-09",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-09",
+   "runtime",
+   ""
   ],
   [
    "2026-09",
@@ -1005,6 +1762,21 @@
   [
    "2026-10",
    "interface",
+   ""
+  ],
+  [
+   "2026-10",
+   "interface",
+   ""
+  ],
+  [
+   "2026-10",
+   "interface",
+   ""
+  ],
+  [
+   "2026-10",
+   "interface",
    "method"
   ],
   [
@@ -1056,6 +1828,101 @@
    "2026-10",
    "method",
    "theory"
+  ],
+  [
+   "2026-10",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-10",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-10",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-10",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-10",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-10",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-10",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-10",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-10",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-10",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-10",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-10",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-10",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-10",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-10",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-10",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-10",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-10",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-10",
+   "runtime",
+   ""
   ],
   [
    "2026-10",
@@ -1339,6 +2206,11 @@
   ],
   [
    "2026-10",
+   "runtime",
+   "systems"
+  ],
+  [
+   "2026-10",
    "safety",
    "method"
   ],
@@ -1400,7 +2272,32 @@
   [
    "2026-11",
    "runtime",
+   ""
+  ],
+  [
+   "2026-11",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-11",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-11",
+   "runtime",
+   ""
+  ],
+  [
+   "2026-11",
+   "runtime",
    "method"
+  ],
+  [
+   "2026-11",
+   "runtime",
+   "systems"
   ],
   [
    "2026-11",
@@ -1440,6 +2337,30 @@
  ],
  "venues": [
   {
+   "name": "arXiv (Cornell University)",
+   "papers": 85
+  },
+  {
+   "name": "Zenodo (CERN European Organization for Nuclear Research)",
+   "papers": 54
+  },
+  {
+   "name": "SSRN Electronic Journal",
+   "papers": 7
+  },
+  {
+   "name": "Preprints.org",
+   "papers": 6
+  },
+  {
+   "name": "Findings of the Association for Computational Linguistics: EMNLP (Findings of EMNLP)",
+   "papers": 2
+  },
+  {
+   "name": "Conference on Empirical Methods in Natural Language Processing: System Demonstrations (EMNLP)",
+   "papers": 2
+  },
+  {
    "name": "CIKM 2026",
    "papers": 1
   },
@@ -1449,10 +2370,6 @@
   },
   {
    "name": "NeurIPS 2026. Code",
-   "papers": 1
-  },
-  {
-   "name": "Preprints.org",
    "papers": 1
   },
   {
@@ -1478,79 +2395,78 @@
   {
    "name": "2026 International Conference on Advanced Computing Technologies (ICACT)",
    "papers": 1
-  },
-  {
-   "name": "Advances in Neural Information Processing Systems 38",
-   "papers": 1
-  },
-  {
-   "name": "Journal of AI, Robotics &amp; Workplace Automation",
-   "papers": 1
   }
  ],
  "keyword_bursts": [
   {
    "keyword": "orchestration",
-   "recent": 19,
-   "total": 19,
-   "burst_score": 1.1,
-   "recent_share": 0.0788
+   "recent": 32,
+   "total": 32,
+   "burst_score": 1.07,
+   "recent_share": 0.0775
+  },
+  {
+   "keyword": "control plane",
+   "recent": 3,
+   "total": 3,
+   "burst_score": 1.07,
+   "recent_share": 0.0073
   },
   {
    "keyword": "meta access",
    "recent": 1,
    "total": 1,
-   "burst_score": 1.1,
-   "recent_share": 0.0041
+   "burst_score": 1.07,
+   "recent_share": 0.0024
   },
   {
    "keyword": "harness",
-   "recent": 236,
-   "total": 242,
-   "burst_score": 1.07,
-   "recent_share": 0.9793
+   "recent": 395,
+   "total": 405,
+   "burst_score": 1.05,
+   "recent_share": 0.9564
   },
   {
    "keyword": "tool",
-   "recent": 108,
-   "total": 113,
-   "burst_score": 1.05,
-   "recent_share": 0.4481
-  },
-  {
-   "keyword": "context",
-   "recent": 83,
-   "total": 88,
-   "burst_score": 1.03,
-   "recent_share": 0.3444
-  },
-  {
-   "keyword": "agent",
-   "recent": 241,
-   "total": 261,
-   "burst_score": 1.01,
-   "recent_share": 1.0
-  },
-  {
-   "keyword": "permission",
-   "recent": 10,
-   "total": 11,
-   "burst_score": 1.0,
-   "recent_share": 0.0415
+   "recent": 200,
+   "total": 206,
+   "burst_score": 1.04,
+   "recent_share": 0.4843
   },
   {
    "keyword": "runtime",
-   "recent": 47,
-   "total": 52,
-   "burst_score": 0.99,
-   "recent_share": 0.195
+   "recent": 207,
+   "total": 215,
+   "burst_score": 1.03,
+   "recent_share": 0.5012
+  },
+  {
+   "keyword": "context",
+   "recent": 133,
+   "total": 139,
+   "burst_score": 1.03,
+   "recent_share": 0.322
+  },
+  {
+   "keyword": "agent",
+   "recent": 412,
+   "total": 439,
+   "burst_score": 1.01,
+   "recent_share": 0.9976
+  },
+  {
+   "keyword": "permission",
+   "recent": 17,
+   "total": 19,
+   "burst_score": 0.96,
+   "recent_share": 0.0412
   },
   {
    "keyword": "sandbox",
-   "recent": 12,
-   "total": 16,
-   "burst_score": 0.82,
-   "recent_share": 0.0498
+   "recent": 29,
+   "total": 33,
+   "burst_score": 0.94,
+   "recent_share": 0.0702
   }
  ]
 }

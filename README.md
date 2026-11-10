@@ -153,19 +153,19 @@ This repo is designed to be driven by coding agents (OpenCode, Claude Code, …)
 
 ## 📊 Corpus Statistics
 
-**264 papers** across **9 categories**.  
-Sources: **arXiv** 237 (90%).  
+**443 papers** across **9 categories**.  
+Sources: **arXiv** 327 (74%).  
 
 ### Top categories
 
 | Category | Papers | Recent | |
 |----------|--------|--------|-|
-| runtime | **183** | 168 | ████████████ |
-| safety | **30** | 22 | ██░░░░░░░░░░ |
+| runtime | **353** | 334 | ████████████ |
+| safety | **30** | 22 | █░░░░░░░░░░░ |
 | method | **21** | 21 | █░░░░░░░░░░░ |
 | evaluation | **13** | 13 | █░░░░░░░░░░░ |
+| interface | **12** | 9 | █░░░░░░░░░░░ |
 | context | **8** | 8 | █░░░░░░░░░░░ |
-| interface | **3** | 3 | █░░░░░░░░░░░ |
 | application | **2** | 2 | █░░░░░░░░░░░ |
 | orchestration | **2** | 2 | █░░░░░░░░░░░ |
 | survey | **2** | 2 | █░░░░░░░░░░░ |
@@ -174,19 +174,20 @@ Sources: **arXiv** 237 (90%).
 
 | Year | Papers | |
 |------|--------|-|
-| 2025 | 5 | █░░░░░░░░░░░ |
-| 2026 | 241 | ████████████ |
+| 2024 | 2 | █░░░░░░░░░░░ |
+| 2025 | 10 | █░░░░░░░░░░░ |
+| 2026 | 412 | ████████████ |
 
 ### Momentum (hottest categories)
 
 | Category | Total | Rate | Recent | Score |
 |----------|-------|------|--------|-------|
-| Runtime | 183 | 14.0/mo | 92% | 4192 |
+| Runtime | 353 | 27.8/mo | 95% | 4766 |
 | Safety | 30 | 1.8/mo | 73% | 2173 |
+| Interface | 12 | 0.8/mo | 75% | 875 |
 | Application | 2 | 0.2/mo | 100% | 100 |
 | Context | 8 | 0.7/mo | 100% | 100 |
 | Evaluation | 13 | 1.1/mo | 100% | 100 |
-| Interface | 3 | 0.2/mo | 100% | 100 |
 | Method | 21 | 1.8/mo | 100% | 100 |
 | Orchestration | 2 | 0.2/mo | 100% | 100 |
 | Survey | 2 | 0.2/mo | 100% | 100 |
@@ -195,29 +196,29 @@ Sources: **arXiv** 237 (90%).
 
 | Keyword | Papers | Burst |
 |---------|--------|-------|
-| orchestration | 19 | 1.1 |
-| meta access | 1 | 1.1 |
-| harness | 236 | 1.07 |
-| tool | 108 | 1.05 |
-| context | 83 | 1.03 |
-| agent | 241 | 1.01 |
-| permission | 10 | 1.0 |
-| runtime | 47 | 0.99 |
+| orchestration | 32 | 1.07 |
+| control plane | 3 | 1.07 |
+| meta access | 1 | 1.07 |
+| harness | 395 | 1.05 |
+| tool | 200 | 1.04 |
+| runtime | 207 | 1.03 |
+| context | 133 | 1.03 |
+| agent | 412 | 1.01 |
 
 ### Top venues
 
 | Venue | Papers |
 |-------|--------|
+| arXiv (Cornell University) | 85 |
+| Zenodo (CERN European Organization for Nuclear Research) | 54 |
+| SSRN Electronic Journal | 7 |
+| Preprints.org | 6 |
+| Findings of the Association for Computational Linguistics: EMNLP (Findings of EMNLP) | 2 |
+| Conference on Empirical Methods in Natural Language Processing: System Demonstrations (EMNLP) | 2 |
 | CIKM 2026 | 1 |
 | SIGIR 2026 | 1 |
 | NeurIPS 2026. Code | 1 |
-| Preprints.org | 1 |
 | CRAN: Contributed Packages | 1 |
-| Advances in Computational Intelligence and Robotics | 1 |
-| 2026 IEEE International Conference on Software Services Engineering (SSE) | 1 |
-| 2025 IEEE 19th International Conference on Application of Information and Communication Technologies (AICT) | 1 |
-| 2026 International Conference on Artificial Intelligence, Systems, and Emerging Technologies (ICAISET) | 1 |
-| 2026 International Conference on Advanced Computing Technologies (ICACT) | 1 |
 
 ### Research gaps (thinnest cells)
 

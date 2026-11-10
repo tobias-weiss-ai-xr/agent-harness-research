@@ -1,21 +1,22 @@
 # Trends (12-Month View)
 
-**Generated:** 2026-11-09  
-**Window:** since 2025-11 — 241 of 264 papers
+**Generated:** 2026-11-10  
+**Window:** since 2025-11 — 413 of 443 papers
 
 ## 🔥 Keyword Bursts
 
 | Keyword | Recent | Total | Burst |
 |---------|--------|-------|-------|
-| harness | 236 | 242 | 1.1× |
-| orchestration | 19 | 19 | 1.1× |
+| orchestration | 32 | 32 | 1.1× |
+| control plane | 3 | 3 | 1.1× |
 | meta access | 1 | 1 | 1.1× |
-| agent | 241 | 261 | 1.0× |
-| tool | 108 | 113 | 1.0× |
-| context | 83 | 88 | 1.0× |
-| runtime | 47 | 52 | 1.0× |
-| permission | 10 | 11 | 1.0× |
-| sandbox | 12 | 16 | 0.8× |
+| agent | 412 | 439 | 1.0× |
+| harness | 395 | 405 | 1.0× |
+| runtime | 207 | 215 | 1.0× |
+| tool | 200 | 206 | 1.0× |
+| context | 133 | 139 | 1.0× |
+| permission | 17 | 19 | 1.0× |
+| sandbox | 29 | 33 | 0.9× |
 
 ## 📈 Fastest-Growing Cells
 

@@ -1,7 +1,7 @@
 # Literature Review
 
-**Generated:** 2026-11-09  
-**Corpus:** 264 papers across 9 categories
+**Generated:** 2026-11-10  
+**Corpus:** 443 papers across 9 categories
 
 > Synthesis of the corpus. Category insights are grounded in title/abstract analysis of the papers themselves.
 
@@ -11,17 +11,17 @@
 
 | Rank | Category | Papers |
 |------|----------|--------|
-| 1 | Agent Runtimes & Harnesses | 183 |
+| 1 | Agent Runtimes & Harnesses | 353 |
 | 2 | Safety, Permissions & Sandboxing | 30 |
 | 3 | Methods & Architectures | 21 |
 | 4 | Evaluation & Benchmarks | 13 |
-| 5 | Context & State Management | 8 |
-| 6 | Interfaces & Meta-Access | 3 |
+| 5 | Interfaces & Meta-Access | 12 |
+| 6 | Context & State Management | 8 |
 | 7 | Applications | 2 |
 | 8 | Surveys & Taxonomies | 2 |
 
-**Time span:** 2025–2026 (median year 2026)
-**Dominant aspects:** Systems (194), Methods & Architectures (53), Experiment (12)
+**Time span:** 2024–2026 (median year 2025)
+**Dominant aspects:** Systems (197),  (176), Methods & Architectures (53)
 
 ---
 
@@ -29,12 +29,12 @@
 
 | Category | Total | Last 12m | Prior 12m | Growth | 12-m share | Papers/mo |
 |----------|------:|---------:|----------:|-------:|----------:|----------:|
-| Runtime | 183 | 168 | 4 | +4100% | 92% | 14.0 |
+| Runtime | 353 | 334 | 7 | +4671% | 95% | 27.8 |
 | Safety | 30 | 22 | 1 | +2100% | 73% | 1.8 |
+| Interface | 12 | 9 | 1 | +800% | 75% | 0.8 |
 | Application | 2 | 2 | 0 | — | 100% | 0.2 |
 | Context | 8 | 8 | 0 | — | 100% | 0.7 |
 | Evaluation | 13 | 13 | 0 | — | 100% | 1.1 |
-| Interface | 3 | 3 | 0 | — | 100% | 0.2 |
 | Method | 21 | 21 | 0 | — | 100% | 1.8 |
 | Orchestration | 2 | 2 | 0 | — | 100% | 0.2 |
 | Survey | 2 | 2 | 0 | — | 100% | 0.2 |
@@ -61,7 +61,7 @@
 
 ### Agent Runtimes & Harnesses (`runtime`)
 
-**Corpus size:** 183 papers
+**Corpus size:** 353 papers
 
 **Recent papers:**
 
@@ -107,6 +107,18 @@
 
 ---
 
+### Interfaces & Meta-Access (`interface`)
+
+**Corpus size:** 12 papers
+
+**Recent papers:**
+
+- [2026-11] The Power of Meta Access in the Software of the Future --- Demonstrated on LLM Chat UIs and Cha — https://arxiv.org/abs/2611.08428
+- [2026-10] Evolving Agent Interfaces — https://arxiv.org/abs/2610.28601
+- [2026-10] Web$hell: A Unified Interface for Agentic Web Access — https://arxiv.org/abs/2610.13416
+
+---
+
 ### Context & State Management (`context`)
 
 **Corpus size:** 8 papers
@@ -116,18 +128,6 @@
 - [2026-11] SUMONE: A Simple and Efficient Summarizer for Plug-and-Play Agent Memory — https://arxiv.org/abs/2611.06445
 - [2026-10] Context Compaction for World Models — https://arxiv.org/abs/2610.38980
 - [2026-10] LongHarness: Advancing Agentic Reasoning over 100M-Token Corpora via Stateful Evidence Manageme — https://arxiv.org/abs/2610.13075
-
----
-
-### Interfaces & Meta-Access (`interface`)
-
-**Corpus size:** 3 papers
-
-**Recent papers:**
-
-- [2026-11] The Power of Meta Access in the Software of the Future --- Demonstrated on LLM Chat UIs and Cha — https://arxiv.org/abs/2611.08428
-- [2026-10] Evolving Agent Interfaces — https://arxiv.org/abs/2610.28601
-- [2026-10] Web$hell: A Unified Interface for Agentic Web Access — https://arxiv.org/abs/2610.13416
 
 ---
 
