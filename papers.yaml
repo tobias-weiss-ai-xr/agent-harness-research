@@ -13471,3 +13471,42 @@ papers:
     a final answer in one completion. A rule-based runtime monitor costs about 7 microseconds per trace but reduces wrong
     answers mainly by abstaining.'
   venue: arXiv (Cornell University)
+- title: 'Auditable Authorization for LLM Agents: Empirical Evidence Across Model, Harness, and Workflow Layers'
+  date: 2026-11
+  url: https://arxiv.org/abs/2611.19237
+  category: runtime
+  subcategory: ''
+  authors:
+  - Bangjie Deng
+  - Xiaoxuan Lu
+  - Wenjun Chen
+  abstract: 'Human approval provides effective control only if rejected work stops and authorized work completes. We formalize
+    refusal safety and bounded authorization completeness, and audit three execution boundaries: the model selects a call,
+    the harness schedules and resumes it, and the workflow routes the decision to a protected effect. Paired decisions, exact
+    traces, and native business-state witnesses support experiments with three models, five prompt arms, four runtime approval
+    designs, two additional framework replays, and 100 public workflow sources. The paired model panel leaves seven of 300
+    approvals unfinished despite zero denied effects; parallel confirmation loses an approved branch in three tasks per model,
+    restoration omits 336/672 CrewAI approvals, and four of 59 comparable n8n workflows execute after Reject. Comparing intent,
+    generated calls, dispatch, and native effects identifies the first observable divergence and its repair target. This yields
+    a practical audit contract that makes both refusal safety and authorization completeness independently verifiable, converting
+    human approval from a procedural formality into an enforceable control boundary between intent and real-world effect.'
+  venue: arXiv (Cornell University)
+- title: 'Run, Read Back, Refine: Observation Fidelity in Execution-Grounded EDA Agents'
+  date: 2026-11
+  url: https://arxiv.org/abs/2611.19056
+  category: runtime
+  subcategory: ''
+  authors:
+  - Yang Liu
+  - Shiwei Hou
+  - 陈习元
+  abstract: 'Design engineers lose the most time orchestrating flows and patching the gaps where closed EDA tools refuse to
+    interoperate. We present an execution-grounded LLM agent for PyAether, SKILL, and Tcl that closes a generate-execute-refine
+    loop over unified MCP tools (API retrieval, documentation, sandbox execution) and is already deployed in production EDA
+    flows, with a grounding-gap framework positing that EDA-scripting correctness is bottlenecked by observation fidelity
+    at the L4 (situated) layer, which model scale alone cannot reach. On EDA-Scripting-Bench (449 tasks, three languages,
+    four commercial runtimes), the system reaches 76.5% pooled Pass@1 versus 19.7% (pure LLM): the system-level observation
+    axis spans 56.8 percentage points with the model fixed, exceeding the 23.3-percentage-point backbone range with the harness
+    fixed---two axes answering different questions; observation is an under-invested axis whose returns are measurable and
+    graded.'
+  venue: arXiv (Cornell University)
